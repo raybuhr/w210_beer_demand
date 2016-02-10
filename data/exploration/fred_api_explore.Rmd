@@ -1,0 +1,82 @@
+---
+title: "FRED API Data Exploration"
+output: html_document
+---
+
+```{r, include=FALSE}
+library(dplyr)
+library(ggvis)
+library(ggplot2)
+library(ggfortify)
+beer_data <- read.csv("~/R/w210_beer_demand/data/exploration/FRED_beer_inventory_sales.csv")
+beer_data$month <- as.Date(beer_data$month)
+beer_by_month <- read.csv("~/R/w210_beer_demand/data/exploration/FRED_beer_by_month.csv")
+```
+
+
+```{r}
+# trend of beer sold by month
+beer_data %>% ggvis(~month, ~sales) %>% 
+    layer_points(fill:='red') %>% 
+    layer_smooths(stroke='blue')
+
+# trend of beer sold with lin. reg.
+beer_data %>% ggvis(~month, ~sales) %>% 
+    layer_lines(stroke:='red') %>% 
+    layer_model_predictions(model="lm", se=T)
+
+# trend of beer inventory by month 
+beer_data %>% ggvis(~month, ~inventory) %>% 
+    layer_lines(stroke:='red') %>% 
+    layer_smooths()
+
+# trend of beer inventory with lin. reg.
+beer_data %>% ggvis(~month, ~inventory) %>% 
+    layer_points(fill='blue') %>% 
+    layer_model_predictions(model="lm", se=T)
+
+# trend of ratio of beer sold to beer inventory by month
+beer_data %>% ggvis(~month, ~sold_ratio) %>% 
+    layer_points(fill:='green') %>% 
+    layer_smooths()
+
+# stepwise increment of ratio of sales runsum to inventory runsum
+beer_data %>% ggvis(~ts, ~history_sold_ratio) %>%
+    layer_bars()
+```
+
+
+```{r}
+series <- c("SALES"="darkgreen", "INVENTORY"="blue", "DIFF"='gray')
+ggplot(data=beer_data, aes(x=month)) + 
+    geom_line(aes(y=sales, group=1, color='SALES')) +
+    geom_line(aes(y=inventory, group=2, color='INVENTORY')) + 
+    geom_area(aes(y=unsold, group=3, color="DIFF")) + 
+    scale_color_manual(name="Legend", values=series, 
+                       guide=guide_legend(override.aes=aes(fill=NA))) +
+    scale_fill_manual(name="Legend", values=series, guide='none') +
+    xlab("Months 1992-01-01 to 2015-12-01") + 
+    ylab("Millions of Dollars") + 
+    ggtitle("Beer Sales and Inventory for the last 24 Years") +
+    theme_minimal()
+```
+
+
+```{r}
+beer_model <- lm(sales ~ inventory + month, data=beer_data)
+summary(beer_model)
+autoplot(beer_model)
+```
+
+```{r}
+ggplot(data=beer_by_month, aes(x=mnth)) + 
+    geom_line(aes(y=beer_sold, color='avg. sold')) +
+    geom_line(aes(y=beer_made, color='avg. prod')) + 
+    scale_color_manual(name="Legend", values=c('darkgreen', 'darkblue')) + 
+    scale_x_continuous(breaks=seq(1,12,1)) + 
+    scale_y_continuous(breaks=seq(0,15000,2500), limits=c(0,15000)) + 
+    xlab("Month of Year") + ylab("Millions of Dollars") + 
+    ggtitle("Seasonality of Beer Sales Since 2010") +
+    theme_minimal()
+```
+
