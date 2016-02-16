@@ -22,6 +22,6 @@ get_beer <- function(id, secret, beer_id) {
   checkins_stats
 }
 
-### Example call for Lgunitas IPA ###
-lagunitas_ipa <- final <- get_beer(id, secret, '4509')
+### Example call for Lagunitas IPA ###
+lagunitas_ipa <- get_beer(id, secret, '4509')
 
