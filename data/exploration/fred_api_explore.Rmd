@@ -48,7 +48,7 @@ beer_data %>% ggvis(~ts, ~history_sold_ratio) %>%
 
 ```{r}
 series <- c("SALES"="darkgreen", "INVENTORY"="blue", "DIFF"='gray')
-ggplot(data=beer_data, aes(x=month)) + 
+ggplot(data=filter(beer_data, year(month)>2000), aes(x=month)) + 
     geom_line(aes(y=sales, group=1, color='SALES')) +
     geom_line(aes(y=inventory, group=2, color='INVENTORY')) + 
     geom_area(aes(y=unsold, group=3, color="DIFF")) + 
@@ -57,7 +57,7 @@ ggplot(data=beer_data, aes(x=month)) +
     scale_fill_manual(name="Legend", values=series, guide='none') +
     xlab("Months 1992-01-01 to 2015-12-01") + 
     ylab("Millions of Dollars") + 
-    ggtitle("Beer Sales and Inventory for the last 24 Years") +
+    ggtitle("Beer Sales and Inventory for the last 15 Years") +
     theme_minimal()
 ```
 
@@ -69,7 +69,7 @@ autoplot(beer_model)
 ```
 
 ```{r}
-ggplot(data=beer_by_month, aes(x=mnth)) + 
+ggplot(data=filter(beer_by_month), aes(x=mnth)) + 
     geom_line(aes(y=beer_sold, color='avg. sold')) +
     geom_line(aes(y=beer_made, color='avg. prod')) + 
     scale_color_manual(name="Legend", values=c('darkgreen', 'darkblue')) + 
