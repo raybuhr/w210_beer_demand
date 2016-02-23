@@ -38,7 +38,7 @@
 > services (seasonally adjusted and not seasonally adjusted), organized by product, 
 > service, and end use.
 
-> Commodity-based Final Demand-Intermediate Demand (FD-ID) System. 
+> - Commodity-based Final Demand-Intermediate Demand (FD-ID) System. 
 > Commodity-based FD-ID price indexes regroup commodity indexes for goods, 
 > services, and construction at the subproduct class (six-digit) level, 
 > according to the type of buyer and the amount of physical processing or 
