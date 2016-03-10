@@ -25,6 +25,7 @@ db_con = create_engine(db_url)
 beer_list = 'select distinct name from openbeerdb_beers'
 df = pd.read_sql_query(beer_list, con=db_con)
 df['chars'] = df.name.apply(lambda x: len(x))
+df = df.sample(frac=0.1)
 beers = df[df['chars'] > 9].name.tolist()
 
 # twitter search builder
