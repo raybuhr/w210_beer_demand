@@ -11,11 +11,11 @@ db_con = create_engine(db_url)
 
 # pull db table into pandas dataframe
 query = 'select index, beer_name, text from twitter_beer_search'
-t = pd.read_sql(query, db_con)
+t = pd.read_sql(query, db_con, index='index')
 
 # apply textblob sentiment methods to twitter text
 t['polarity'] = t.text.apply(lambda x: TextBlob(x).sentiment.polarity)
 t['subjectivity'] = t.text.apply(lambda x: TextBlob(x).sentiment.subjectivity)
 
 # write results into new table
-t.to_sql('twitter_beer_sentiment', db_con, if_exists='append')
+t.to_sql('twitter_beer_sentiment', db_con, if_exists='replace')
