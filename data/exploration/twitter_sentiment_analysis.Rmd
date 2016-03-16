@@ -1,0 +1,40 @@
+---
+title: "Twitter Sentiment"
+output: html_document
+render: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Analyzing the polarity and subjectivity of beers and breweries mentioned in tweets.
+
+```{r, include=FALSE, warning=FALSE}
+# data prep for plots
+library(RPostgreSQL)
+drv <- dbDriver("PostgreSQL")
+con <- dbConnect(drv, dbname = "beer",
+                 host = "localhost", port = 5432,
+                 user = "ray", password = Sys.getenv("PGPW"))
+
+bb <- dbGetQuery(con, "
+select br.name as brewery, b.name as beer_name
+from openbeerdb_beers as b 
+    join openbeerdb_breweries as br 
+        on b.brewery_id = br.id
+")
+
+tws <- dbGetQuery(con, "
+select beer_name, text, polarity, subjectivity
+from twitter_beer_sentiment
+")
+
+tws <- tws %>% left_join(bb, by='beer_name')
+
+drinking_terms <- c('alcohol', 'booze', 'brew', 'glass', 'liquor', 'refreshment', 'sip', 'draft', 'gulp', 'libation', 'liquid', 'potable', 'potion', 'slug', 'swallow', 'swig', 'taste', 'toast', 'thirst', 'quench', 'ale', 'chill', 'hops', 'lager', 'malt', 'oil', 'stout', 'suds', 'amber', 'barley', 'brewski', 'brown bottle', 'cold one', 'malt')
+
+
+
+```
+
