@@ -1,43 +1,100 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>W210 beer demand by raybuhr</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
+    <title>Predicting the Demand of Beer Styles by raybuhr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>W210 beer demand</h1>
-        <p>Capstone project for UC Berkeley MIDS Sping 2016</p>
-        <p class="view"><a href="https://github.com/raybuhr/w210_beer_demand">View the Project on GitHub <small>raybuhr/w210_beer_demand</small></a></p>
-        <ul>
-          <li><a href="https://github.com/raybuhr/w210_beer_demand/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/raybuhr/w210_beer_demand/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/raybuhr/w210_beer_demand">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
-<a id="w210_beer_demand" class="anchor" href="#w210_beer_demand" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>w210_beer_demand</h1>
+    <section class="page-header">
+      <h1 class="project-name">Predicting the Demand of Beer Styles</h1>
+      <h2 class="project-tagline">Capstone project for UC Berkeley MIDS, Sping 2016</h2>
+      <a href="https://github.com/raybuhr/w210_beer_demand" class="btn">View on GitHub</a>
+      <a href="https://github.com/raybuhr/w210_beer_demand/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/raybuhr/w210_beer_demand/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-<p>Capstone project for UC Berkeley MIDS Sping 2016</p>
-      </section>
-    </div>
-    <footer>
-      <p>Project maintained by <a href="https://github.com/raybuhr">raybuhr</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+    <section class="main-content">
+      <h1>
+<a id="predicting-the-demand-of-beer-styles" class="anchor" href="#predicting-the-demand-of-beer-styles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Predicting the Demand of Beer Styles</h1>
+
+<p><em>Capstone project for UC Berkeley MIDS, Sping 2016</em></p>
+
+<p><strong>Ray Buhr, Carson Forter, Satish Terala</strong></p>
+
+<h2>
+<a id="goal" class="anchor" href="#goal" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GOAL:</h2>
+
+<h3>
+<a id="help-brewers-make-the-right-beer-in-the-right-place-at-the-right-time" class="anchor" href="#help-brewers-make-the-right-beer-in-the-right-place-at-the-right-time" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Help brewers make the right beer in the right place at the right time</h3>
+
+<h2>
+<a id="but-why-beer-models" class="anchor" href="#but-why-beer-models" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>But Why Beer Models?</h2>
+
+<ul>
+<li>Big industry</li>
+<li>Major year-over-year growth</li>
+<li>Few players in the data/beer space</li>
+<li>New players need data to succeed and represent an opportunity</li>
+</ul>
+
+<h2>
+<a id="data-science-approach" class="anchor" href="#data-science-approach" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data Science Approach</h2>
+
+<p><strong>Get data</strong></p>
+
+<ul>
+<li>Sales data and consumption data from various sources</li>
+<li>Untappd, OpenBeerDB, FRED, Twitter</li>
+</ul>
+
+<p><strong>Clean and transform data</strong></p>
+
+<ul>
+<li>Load all data into uniform RDBMS</li>
+</ul>
+
+<p><strong>Explore</strong></p>
+
+<ul>
+<li>Do exploratory analysis to understand correlations and trends</li>
+</ul>
+
+<p><strong>Model</strong></p>
+
+<ul>
+<li>Build and test various models to predict ratings, sentiment, and consumption location, including multiple models by style and location</li>
+</ul>
+
+<p><strong>Present and polish</strong></p>
+
+<ul>
+<li>Visualize models in a Shiny dashboard for breweries to use</li>
+</ul>
+
+<h2>
+<a id="next-steps" class="anchor" href="#next-steps" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Next Steps</h2>
+
+<ul>
+<li>Build out website with interactive dashboard based on demo</li>
+<li>Add sentiment aggregated by style to supplement maps</li>
+<li>Adapt style model to account for regional biases in data </li>
+<li>Keep looking for new data sources to incorporate</li>
+<li>Get more feedback from breweries of what problems they have that data science can solve</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/raybuhr/w210_beer_demand">Predicting the Demand of Beer Styles</a> is maintained by <a href="https://github.com/raybuhr">raybuhr</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
   </body>
 </html>

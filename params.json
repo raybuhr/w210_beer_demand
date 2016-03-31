@@ -1,6 +1,6 @@
 {
-  "name": "W210 beer demand",
-  "tagline": "Capstone project for UC Berkeley MIDS Sping 2016",
-  "body": "# w210_beer_demand\r\nCapstone project for UC Berkeley MIDS Sping 2016\r\n",
+  "name": "Predicting the Demand of Beer Styles",
+  "tagline": "Capstone project for UC Berkeley MIDS, Sping 2016",
+  "body": "# Predicting the Demand of Beer Styles\r\n*Capstone project for UC Berkeley MIDS, Sping 2016*\r\n\r\n**Ray Buhr, Carson Forter, Satish Terala**\r\n\r\n## GOAL:\r\n### Help brewers make the right beer in the right place at the right time\r\n\r\n## But Why Beer Models?\r\n\r\n- Big industry\r\n- Major year-over-year growth\r\n- Few players in the data/beer space\r\n- New players need data to succeed and represent an opportunity\r\n\r\n\r\n## Data Science Approach\r\n\r\n**Get data**\r\n- Sales data and consumption data from various sources\r\n- Untappd, OpenBeerDB, FRED, Twitter\r\n\r\n**Clean and transform data**\r\n- Load all data into uniform RDBMS\r\n\r\n**Explore**\r\n- Do exploratory analysis to understand correlations and trends\r\n\r\n**Model**\r\n- Build and test various models to predict ratings, sentiment, and consumption location, including multiple models by style and location\r\n\r\n**Present and polish**\r\n- Visualize models in a Shiny dashboard for breweries to use\r\n\r\n## Next Steps\r\n\r\n- Build out website with interactive dashboard based on demo\r\n- Add sentiment aggregated by style to supplement maps\r\n- Adapt style model to account for regional biases in data \r\n- Keep looking for new data sources to incorporate\r\n- Get more feedback from breweries of what problems they have that data science can solve\r\n\r\n\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
