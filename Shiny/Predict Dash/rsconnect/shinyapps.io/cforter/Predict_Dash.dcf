@@ -1,0 +1,8 @@
+name: Predict_Dash
+account: cforter
+server: shinyapps.io
+bundleId: 412519
+url: https://cforter.shinyapps.io/Predict_Dash/
+when: 1459995625.56263
+asMultiple: FALSE
+asStatic: FALSE
