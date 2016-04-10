@@ -1,4 +1,5 @@
 <br><br><br>
+
 # Predicting the Demand of Beer Styles
 *Capstone project for UC Berkeley MIDS, Sping 2016*
 
