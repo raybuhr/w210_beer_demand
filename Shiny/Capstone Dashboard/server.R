@@ -9,6 +9,7 @@ shinyServer(function(input, output, session) {
   library(ggmap)
 
   beers <- read.csv('beers_with_style_3_15.csv')
+  beers <- beers %>% filter(country_name == "United States")
   output$gen_map <- renderPlot({
     
     state_lookup <- data.frame(cbind(name = c('All', 'alabama', 'arizona', 'arkansas', 'california', 'colorado', 'connecticut',

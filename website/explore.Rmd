@@ -7,9 +7,19 @@ beer in as visual and interactive way possible.
 
 <br>
 
+# Untappd
+
+**Socially media for beer drinkers, check it out at [Untappd](https://untappd.com)**
+
+> Untappd is a new mobile web app that allows you to socially share the brew you're currently enjoying, as well as where you're enjoying it, with your friends!
+
+<iframe src="./Capstone Dashboard/" style="border: 1px solid #AAA; width: 700px; height: 720px"></iframe>
+
+<br>
+
 # FRED
 
-**From the <a href="https://research.stlouisfed.org/docs/api/fred/fred.html">Economic Research Division of the Federal Reserve Bank of St. Louis</a>**
+**From the [Economic Research Division of the Federal Reserve Bank of St. Louis](https://research.stlouisfed.org/docs/api/fred/fred.html)**
 
 > FRED® stands for Federal Reserve Economic Data. FRED® contains frequently updated US macro and regional economic time series at annual, quarterly, monthly, weekly, and daily frequencies. FRED® aggregates economic data from a variety of sources- most of which are US government agencies. The economic time series in FRED® contain observation or measurement periods associated with data values. For instance, the US unemployment rate for the month of January, 1990 was 5.4 percent and for the month of January, 2000 was 4.0 percent.
 
