@@ -6,11 +6,13 @@ navbar:
       href: index.html
     - text: "Explore"
       href: explore.html
+    - text: "Predictions"
+      href: predict.html
     - text: "About"
       href: about.html
 output:
   html_document:
-    theme: cosmo
+    theme: yeti
     highlight: textmate
     include:
       after_body: footer.html

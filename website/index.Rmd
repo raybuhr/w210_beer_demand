@@ -1,3 +1,4 @@
+<br><br><br>
 # Predicting the Demand of Beer Styles
 *Capstone project for UC Berkeley MIDS, Sping 2016*
 
@@ -16,20 +17,25 @@
 
 ## Data Science Approach
 
-Get data:
+**Get data:**
+
 - Sales data and consumption data from various sources
 - Untappd, OpenBeerDB, FRED, Twitter
 
-Clean and transform data:
--Load all data into uniform RDBMS
+**Clean and transform data:**
 
-Explore:
+- Load all data into uniform RDBMS
+
+**Explore:**
+
 - Do exploratory analysis to understand correlations and trends
 
-Model:
+**Model:**
+
 - Build and test various models to predict ratings, sentiment, and consumption location, including multiple models by style and location
 
-Present and polish:
+**Present and polish:**
+
 - Visualize models in a Shiny dashboard for breweries to use
 
 ## Next Steps

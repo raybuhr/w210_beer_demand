@@ -1,0 +1,12 @@
+<br><br><br>
+# Beer Demand 
+
+Would you like to know how highly a certain style of beer would be rated given
+varying ABV or IBU?
+
+<div id="shiny">
+
+    <iframe src="./Predict Dash/" style="border: 1px solid #AAA; width: 700px; height: 650px">
+    </iframe>
+
+</div>

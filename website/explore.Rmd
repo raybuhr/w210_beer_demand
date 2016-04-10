@@ -1,10 +1,70 @@
+<br><br><br>
+# Exploring data of Beer Supply and Demand 
 
-# Beer Demand 
+This page is meant to guide you through the data publicly available regarding
+beer in as visual and interactive way possible. 
 
-Would you like to know how highly a certain style of beer would be rated given
-varying ABV or IBU?
+# FRED
 
-<div id="shiny">
-<iframe src="./Predict Dash/" style="border: 1px solid #AAA; width: 700px; height: 650px">
-</iframe>
-</div>
+**From the <a href="https://research.stlouisfed.org/docs/api/fred/fred.html">website</a>**
+
+> FRED® stands for Federal Reserve Economic Data. FRED® contains frequently updated US macro and regional economic time series at annual, quarterly, monthly, weekly, and daily frequencies. FRED® aggregates economic data from a variety of sources- most of which are US government agencies. The economic time series in FRED® contain observation or measurement periods associated with data values. For instance, the US unemployment rate for the month of January, 1990 was 5.4 percent and for the month of January, 2000 was 4.0 percent.
+
+We used the FRED API to extract data on the supply and sales of beer over a 20 year period,
+as well as price indices for breweries.
+
+## Brewery Price Indices
+
+### What is a Price Index?
+
+**From the [Bureau Of Labor Statistics](http://www.bls.gov/ppi/data.htmhttp://www.bls.gov/ppi/data.htm)**
+
+> The Producer Price Index (PPI) program measures the average change over time in 
+> the selling prices received by domestic producers for their output. The prices 
+> included in the PPI are from the first commercial transaction for many products 
+> and some services.
+
+The data on price indices shows PPI for several different goods produced by breweries. 
+A PPI always has an initial date at which the index began. 
+This index date is usually when the agency recording began
+collecting data and is set to 100 for each of the categories below. 
+The index date for each category below is June 1, 1982.
+
+```{r prepare_date, include=FALSE}
+library(dygraphs)
+library(xts)
+fred_idx = read.csv("fred_idx.csv")
+fred_idx = fred_idx[, c(1, 2, 4, 5, 6)]
+fred_idx$index_date = as.Date(fred_idx$index_date)
+colnames(fred_idx) = c("index_date", "cases_bottles", "cases_cans", "barrels_and_kegs", "overall")
+fred_idx = as.xts(fred_idx[, 2:5], order.by = fred_idx[, 1])
+```
+
+```{r ts_graph_idx, echo=FALSE, warning=FALSE}
+dygraph(fred_idx, main = "Brewery Price Index Data") %>%
+  dyLegend(width = 600) %>%
+  dyRangeSelector()
+```
+
+
+# BeerPal
+
+According to [itself](http://www.beerpal.com/)
+
+> "BeerPal is the most user friendly beer community in the world; a resource of beers, breweries, events and news with reviews and ratings."
+
+BeerPal has been collecting reviews on beers from users to build a list of the 
+[Top Beers](http://www.beerpal.com/Best-Beer.htm).
+
+The charts below highlight some interesting aspects about how the internet rates beers.
+
+```{r rating_map, echo=FALSE, warning=FALSE}
+library(choroplethr)
+bp_by_state = read.csv("bp_rating_by_state.csv", stringsAsFactors = FALSE)
+state_choropleth(bp_by_state, 
+                   title = "Mean BeerPal Rating of Beers by State Brewed In",
+                   legend = "Mean Beer Rating",
+                   num_colors = 5)
+```
+
+
