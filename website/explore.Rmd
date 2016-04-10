@@ -13,7 +13,12 @@ beer in as visual and interactive way possible.
 
 > Untappd is a new mobile web app that allows you to socially share the brew you're currently enjoying, as well as where you're enjoying it, with your friends!
 
-<iframe src="./Capstone Dashboard/" style="border: 1px solid #AAA; width: 700px; height: 720px"></iframe>
+This app shows where Untappd users are drinking different styles of beer. 
+Untappd users tend to be more heavily located on the U.S. coastal states, but you 
+should still be able to still some unique differences amound beer style preferences 
+among different regions of the country.  
+
+<iframe src="./Capstone Dashboard/" style="border: 1px solid #AAA; width: 900px; height: 900px"></iframe>
 
 <br>
 
