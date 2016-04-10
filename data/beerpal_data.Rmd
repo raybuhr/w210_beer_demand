@@ -1,5 +1,5 @@
 ---
-title: "beerpal"
+title: "BeerPal.com data"
 runtime: shiny
 output: html_document
 ---
@@ -32,6 +32,7 @@ bp_by_state <- within(bp_by_state,
                                labels = FALSE))
 state_abbr <- data.frame('state'=state.abb, 'region'=state.name)
 state_abbr$region <- tolower(state_abbr$region)
+bp <- left_join(bp, state_abbr, by='state')
 bp_by_state <- left_join(bp_by_state, state_abbr, by='state')
 bp_by_state <- bp_by_state[complete.cases(bp_by_state),]
 bp_by_state$value <- bp_by_state$rating
