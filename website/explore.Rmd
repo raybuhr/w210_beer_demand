@@ -1,9 +1,11 @@
-<br><br><br>
+<br><br>
 
 # Exploring data of Beer Supply and Demand 
 
 This page is meant to guide you through the data publicly available regarding
 beer in as visual and interactive way possible. 
+
+<br>
 
 # FRED
 
@@ -13,6 +15,8 @@ beer in as visual and interactive way possible.
 
 We used the FRED API to extract data on the supply and sales of beer over a 20 year period,
 as well as price indices for breweries.
+
+<br>
 
 ## Brewery Price Indices
 
@@ -47,6 +51,7 @@ dygraph(fred_idx, main = "Brewery Price Index Data") %>%
   dyRangeSelector()
 ```
 
+<br><br>
 
 # BeerPal
 
