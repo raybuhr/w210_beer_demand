@@ -5,5 +5,5 @@
 Would you like to know how highly a certain style of beer would be rated given
 varying ABV or IBU?
 
-<iframe src="./Predict Dash/" style="border: 1px solid #AAA; width: 700px; height: 700px">
+<iframe src="./Predict Dash/" style="border: 1px solid #AAA; width: 700px; height: 720px">
 </iframe>
