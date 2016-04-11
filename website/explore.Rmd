@@ -18,7 +18,7 @@ Untappd users tend to be more heavily located on the U.S. coastal states, but yo
 should still be able to still some unique differences amound beer style preferences 
 among different regions of the country.  
 
-<iframe src="./Capstone Dashboard/" style="border: 1px solid #AAA; width: 900px; height: 900px"></iframe>
+<iframe src="./Capstone Dashboard/" style="border: 1px solid #AAA; width: 900px; height: 700px"></iframe>
 
 <br>
 
