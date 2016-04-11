@@ -1,9 +1,11 @@
 library(shiny)
 library(rAmCharts)
 
+bp_styles = read.csv("beerpal_styles.csv", stringsAsFactors = FALSE)
+bp_states = read.csv("beerpal_states.csv", stringsAsFactors = FALSE)
+
 shinyUI(fluidPage(
     sidebarLayout(
-     conditionalPanel(condition="1==1",
       sidebarPanel(
         selectInput("beer_style",
                     h3("Style of Beer"),
@@ -20,7 +22,7 @@ shinyUI(fluidPage(
                     choices = c("rating", "reviews"),
                     selected = "rating")
         )
-      ),
+      ,
         mainPanel(
             amChartsOutput("amhistchart")
         )
