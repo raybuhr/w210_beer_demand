@@ -18,7 +18,7 @@ Untappd users tend to be more heavily located on the U.S. coastal states, but yo
 should still be able to still some unique differences amound beer style preferences 
 among different regions of the country.  
 
-<iframe src="./Capstone Dashboard/" style="border: 1px solid #FFF; width: 900px; height: 700px"></iframe>
+<iframe src="./Capstone Dashboard/" style="border: 1px solid #FFF; width: 900px; height: 600px"></iframe>
 
 <br>
 
@@ -78,6 +78,18 @@ BeerPal has been collecting reviews on beers from users to build a list of the
 [Top Beers](http://www.beerpal.com/Best-Beer.htm).
 
 The charts below highlight some interesting aspects about how the internet rates beers.
+
+### BeerPal User Submission Distributions 
+
+Use this app to explore how BeerPal.com users rate beers of different styles and 
+the states those beers came from. The category "rating" is a Likert scale from 1 to 5, 
+with 1 being "poor" and 5 being "great". The category "reviews" counts how many times 
+a rating was submitted for the given combination of inputs.  
+
+*Please note that not all combinations have data. If you see an error message about invalid breaks, just try a different pair*  
+
+<iframe src="./BeerPal/" style="border: 1px solid #FFF; width: 900px; height: 600px"></iframe>
+
 
 ```{r rating_map, echo=FALSE, warning=FALSE}
 library(choroplethr)
