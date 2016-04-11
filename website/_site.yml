@@ -10,6 +10,9 @@ navbar:
       href: predict.html
     - text: "About"
       href: about.html
+  right:
+    - icon: fa-github
+      href: https://github.com/raybuhr/w210_beer_demand
 output:
   html_document:
     theme: yeti

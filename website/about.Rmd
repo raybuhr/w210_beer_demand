@@ -1,28 +1,36 @@
----
-title: "About"
-output: html_document
----
+<br>
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+## Capstone Project
 
-## R Markdown
+As the final requirement from the Masters of Information and Data Science (MIDS) 
+program through UC Berkeley, the [Capstone course](https://datascience.berkeley.edu/academics/curriculum/synthetic-capstone-course) 
+puts teams of 3-4 people together on a single, semester long, full data science 
+life cycle project. The project allows us to put to use all of the skills 
+accumulated throughout the program, as well as create a quality piece for our data 
+science portfolio. 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+<br>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## Team Members
 
-```{r cars}
-summary(cars)
-```
+#### Ray Buhr
 
-## Including Plots
+- [LinkedIn Profile](https://www.linkedin.com/in/raybuhr)
+- [Github Account](https://github.com/raybuhr)
 
-You can also embed plots, for example:
+#### Carson Forter
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+- [LinkedIn Profile](https://www.linkedin.com/in/carson-forter-3b13571b)
+- [Github Account](https://github.com/cforter)
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+#### Satish Terala
+
+- [LinkedIn Profile](https://www.linkedin.com/in/satishkt)
+- [Github Account](https://github.com/satishkt)
+
+<br>
+
+## UC Berkeley MIDS Program
+
+> The UC Berkeley School of Information (I School) offers the only professional [Master of Information and Data Science (MIDS)](https://datascience.berkeley.edu) delivered entirely online. The program is designed for professionals who want to solve real-world problems using complex and unstructured data, emphasizing the importance of asking meaningful research questions and effectively communicating findings. Delivered in a web-based learning environment, datascience@berkeley blends live, face-to-face classes with online coursework. The online learning experience facilitates collaboration, meaningful discussion, and lifelong connections with faculty and peers. datascience@berkeley is fully accredited by the Western Association of Schools & Colleges (WASC). 
+
