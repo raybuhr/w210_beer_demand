@@ -19,7 +19,7 @@ shinyServer(function(input, output) {
         group_by(state) %>% 
         summarise(amount=n())
     output$amhistchart <- renderAmCharts({
-        ratings = bp[bp$Style == input$beer_style & bp$state == input$beer_state, 6]
+        ratings = bp[bp$Style == input$beer_style & bp$state == input$beer_state, input$category]
         amHist(x = ratings
                , creditsPosition = "top-right"
                )
