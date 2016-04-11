@@ -1,5 +1,6 @@
 library(shiny)
 library(rAmCharts)
+library(dplyr)
 
 shinyServer(function(input, output) {
     bp = read.csv("beerpal_reviews.csv", stringsAsFactors = FALSE)
@@ -13,11 +14,11 @@ shinyServer(function(input, output) {
     bp = rbind(bp, bp2, bp3, bp4)
     bp_styles = bp %>% 
         group_by(Style) %>% 
-        summarise(amount=n()) %>% 
+        dplyr::summarise(amount=n()) %>% 
         filter(amount >= 16)
     bp_states = bp %>% 
         group_by(state) %>% 
-        summarise(amount=n())
+        dplyr::summarise(amount=n())
     output$amhistchart <- renderAmCharts({
         ratings = bp[bp$Style == input$beer_style & bp$state == input$beer_state, input$category]
         amHist(x = ratings
