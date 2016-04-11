@@ -28,7 +28,7 @@ shinyUI(fluidPage(
         font-weight: 500;
         line-height: 1.1;
         color: #F26B21;
-        margin-top: 500px
+        margin-top: 50px
         align: right;
         display: inline-block;
         }
@@ -59,7 +59,7 @@ shinyUI(fluidPage(
                     font-weight: 100;
                     line-height: 1.1;
                     font-size: 18pt;
-                    margin-left: 150px;
+                    margin-left: 25px;
                     text-align: left;
                     color: #899DA4;
                     white-space: pre
@@ -133,7 +133,7 @@ shinyUI(fluidPage(
     ))),
     mainPanel(
       tabsetPanel(
-        tabPanel("Rating Prediction", fluidRow(column(12, align = "center", h2('We predict a rating of '),h1( textOutput(("gen_map"))))),
+        tabPanel("Rating Prediction", fluidRow(column(12, align = "left", h2('We predict a rating of '), h1(textOutput(("gen_map"))))),
                  div(id="test1", class="test", textOutput("n_observations_ddt")))
          #navbarPage 
       )) #tabsetPanel() & mainPanel()
