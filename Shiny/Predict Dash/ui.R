@@ -28,7 +28,7 @@ shinyUI(fluidPage(
         font-weight: 500;
         line-height: 1.1;
         color: #F26B21;
-        margin-top: 50px
+        margin-top: 20px
         align: right;
         display: inline-block;
         }
@@ -59,7 +59,7 @@ shinyUI(fluidPage(
                     font-weight: 100;
                     line-height: 1.1;
                     font-size: 18pt;
-                    margin-left: 25px;
+                    margin-left: 20px;
                     text-align: left;
                     color: #899DA4;
                     white-space: pre
@@ -85,14 +85,14 @@ shinyUI(fluidPage(
               color: #F26B21;
       }
       .shiny-output-error-validation {
-              margin-top: 25px;
+              margin-top: 20px;
               margin-left: 10px;
       }
     "))
   ),
 #  title="BEER DEMAND",
 #  titlePanel(div(h1("BEER DEMAND"))), #, img(src='esh-logo.png', align = "right", width='230px'))),
-  sidebarLayout(
+  sidebarLayout(position = "left",
     conditionalPanel(condition="1==1",
       sidebarPanel(
       selectInput("state", width = "200px",
@@ -133,9 +133,13 @@ shinyUI(fluidPage(
     ))),
     mainPanel(
       tabsetPanel(
-        tabPanel("Rating Prediction", fluidRow(column(12, align = "left", h2('We predict a rating of '), h1(textOutput(("gen_map"))))),
-                 div(id="test1", class="test", textOutput("n_observations_ddt")))
+        tabPanel(
+            "Rating Prediction", fluidRow(column(12, align = "left", h2('We predict a rating of '), h1(textOutput(("gen_map"))))),
+                 div(id="test1", class="test", textOutput("n_observations_ddt"))
+            )
          #navbarPage 
-      )) #tabsetPanel() & mainPanel()
+      )
+    ) #tabsetPanel() & mainPanel()
   ) #sidebarLayout()
-))
+)
+)
