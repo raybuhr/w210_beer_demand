@@ -77,18 +77,30 @@ According to [BeerPal.com](http://www.beerpal.com/)
 BeerPal has been collecting reviews on beers from users to build a list of the 
 [Top Beers](http://www.beerpal.com/Best-Beer.htm).
 
-The charts below highlight some interesting aspects about how the internet rates beers.
+The table and charts below highlight some interesting aspects about how the internet rates beers.
+
+### Top Beers as Rated on BeerPal
+
+The "rating" is average score of a Likert scale from 1 to 5, with 1 being "poor" 
+and 5 being "great". The "reviews" are how many times that beer was rated.
+
+```{r datatable, echo=FALSE, warning=FALSE}
+bp = read.csv("bp_ratings.csv", stringsAsFactors = FALSE)
+bp = bp[, c(10, 3, 5, 6, 8, 9)]
+DT::datatable(bp)
+```
+
+<br>
 
 ### BeerPal User Submission Distributions 
 
 Use this app to explore how BeerPal.com users rate beers of different styles and 
-the states those beers came from. The category "rating" is a Likert scale from 1 to 5, 
-with 1 being "poor" and 5 being "great". The category "reviews" counts how many times 
-a rating was submitted for the given combination of inputs.  
+the states those beers came from.   
 
 *Please note that not all combinations have data. If you see an error message about invalid breaks, just try a different pair*  
 
-<iframe src="./BeerPal/" style="border: 1px solid #FFF; width: 900px; height: 600px"></iframe>
+<iframe src="./BeerPal/" style="border: 1px solid #FFF; width: 900px; height: 400px"></iframe>
+
 
 
 ```{r rating_map, echo=FALSE, warning=FALSE}
