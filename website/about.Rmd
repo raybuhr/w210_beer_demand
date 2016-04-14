@@ -2,12 +2,7 @@
 
 ## Capstone Project
 
-As the final requirement from the Masters of Information and Data Science (MIDS) 
-program through UC Berkeley, the [Capstone course](https://datascience.berkeley.edu/academics/curriculum/synthetic-capstone-course) 
-puts teams of 3-4 people together on a single, semester long, full data science 
-life cycle project. The project allows us to put to use all of the skills 
-accumulated throughout the program, as well as create a quality piece for our data 
-science portfolio. 
+As the final requirement from the Masters of Information and Data Science (MIDS) program through UC Berkeley, the [Capstone course](https://datascience.berkeley.edu/academics/curriculum/synthetic-capstone-course) puts teams of 3-4 people together on a single, semester long, full data science life cycle project. The project allows us to put to use all of the skills accumulated throughout the program, as well as create a quality piece for our data science portfolio. 
 
 <br>
 
@@ -30,7 +25,19 @@ science portfolio.
 
 <br>
 
+
+## How It's Made
+
+### Tech Stack
+
+[SoftLayer](http://www.softlayer.com/) was used for the virtual servers hosting the website and database. Postgresql is the database we store data collected from the various data sources mentioned. The data collection came mostly from scripts written in R or Python. The content and styling for the website was generated using [Rmarkdown](http://rmarkdown.rstudio.com/rmarkdown_websites.html). The visualizations were made using the [fantastic libraries available in R](http://gallery.htmlwidgets.org/). The interactive prediction apps run on [Shiny Server](https://www.rstudio.com/products/shiny/shiny-server/). To quickly develop code in R using the same development environment, we use [RStudio Server](https://www.rstudio.com/products/rstudio/). To collaborate and share code, we use [Github](https://github.com/raybuhr/w210_beer_demand). For domain registration service we used [namecheap](https://www.namecheap.com/domains/registration.aspx).
+
+### Predictions
+
+The beer rating prediction used the Random Forest algorithm? Now it is a linear model?
+
+<br>
+
 ## UC Berkeley MIDS Program
 
 > The UC Berkeley School of Information (I School) offers the only professional [Master of Information and Data Science (MIDS)](https://datascience.berkeley.edu) delivered entirely online. The program is designed for professionals who want to solve real-world problems using complex and unstructured data, emphasizing the importance of asking meaningful research questions and effectively communicating findings. Delivered in a web-based learning environment, datascience@berkeley blends live, face-to-face classes with online coursework. The online learning experience facilitates collaboration, meaningful discussion, and lifelong connections with faculty and peers. datascience@berkeley is fully accredited by the Western Association of Schools & Colleges (WASC). 
-
