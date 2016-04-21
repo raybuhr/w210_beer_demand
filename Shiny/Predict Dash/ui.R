@@ -28,7 +28,7 @@ shinyUI(fluidPage(
         font-weight: 500;
         line-height: 1.1;
         color: #F26B21;
-        margin-top: 500px
+        margin-top: 20px
         align: right;
         display: inline-block;
         }
@@ -59,7 +59,7 @@ shinyUI(fluidPage(
                     font-weight: 100;
                     line-height: 1.1;
                     font-size: 18pt;
-                    margin-left: 150px;
+                    margin-left: 20px;
                     text-align: left;
                     color: #899DA4;
                     white-space: pre
@@ -85,17 +85,17 @@ shinyUI(fluidPage(
               color: #F26B21;
       }
       .shiny-output-error-validation {
-              margin-top: 25px;
+              margin-top: 20px;
               margin-left: 10px;
       }
     "))
   ),
-  title="BEER DEMAND",
-  titlePanel(div(h1("BEER DEMAND"))), #, img(src='esh-logo.png', align = "right", width='230px'))),
-  sidebarLayout(
+#  title="BEER DEMAND",
+#  titlePanel(div(h1("BEER DEMAND"))), #, img(src='esh-logo.png', align = "right", width='230px'))),
+  sidebarLayout(position = "left",
     conditionalPanel(condition="1==1",
       sidebarPanel(
-      selectInput("state", 
+      selectInput("state", width = "200px",
                   h2("Select State"), 
                   choices = c('All', 'AL','AR','AZ',
                               'CA','CO','CT',
@@ -109,11 +109,11 @@ shinyUI(fluidPage(
                               'OR','PA','RI','SC',
                               'SD','TN','TX','UT','VA',
                               'WA','WI','WV','WY'), selected='All'),
-      selectInput("style", 
+      selectInput("style", width = "200px",
                   h2("Select Your Beer Style"), 
                   choices = c('Pale', 'Lager','Stout','Porter','Brown','IPA','Belgian','Wheat','Sour',
                               'Red', 'Blonde', 'Other'), selected='Pale'),
-      selectInput("abv", 
+      selectInput("abv", width = "200px",
                   h2("Select Your ABV Range"), 
                   choices = c('< 3%', 
                               '3% - 4.9%',
@@ -121,7 +121,7 @@ shinyUI(fluidPage(
                               '8% - 10%', 
                               '> 10%'), 
                               selected='< 3%'),
-      selectInput("ibu", 
+      selectInput("ibu", width = "200px",
                               h2("Select Your IBU Range"), 
                               choices = c('< 10', 
                                           '11 - 25',
@@ -133,10 +133,13 @@ shinyUI(fluidPage(
     ))),
     mainPanel(
       tabsetPanel(
-        tabPanel("About", div(p(br(), "Beer Demand Dashboard For MIDS W210", br())), width="1000px"),
-        tabPanel("Rating Prediction", fluidRow(column(12, align = "center", h2('We predict a rating of '),h1( textOutput(("gen_map"))))),
-                 div(id="test1", class="test", textOutput("n_observations_ddt")))
+        tabPanel(
+            "Rating Prediction", fluidRow(column(12, align = "left", h2('We predict a rating of '), h1(textOutput(("gen_map"))))),
+                 div(id="test1", class="test", textOutput("n_observations_ddt"))
+            )
          #navbarPage 
-      )) #tabsetPanel() & mainPanel()
+      )
+    ) #tabsetPanel() & mainPanel()
   ) #sidebarLayout()
-))
+)
+)

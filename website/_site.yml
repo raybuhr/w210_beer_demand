@@ -1,0 +1,23 @@
+name: "Beer Style Demand"
+navbar:
+  title: "Predicting the Demand of Beer Styles"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Explore"
+      href: explore.html
+    - text: "Predictions"
+      href: predict.html
+    - text: "About"
+      href: about.html
+    - text: "Feedback"
+      href: feedback.html
+  right:
+    - icon: fa-github
+      href: https://github.com/raybuhr/w210_beer_demand
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+    include:
+      after_body: footer.html

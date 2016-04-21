@@ -1,0 +1,80 @@
+---
+title: "BeerPal.com data"
+runtime: shiny
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(ggthemes)
+library(dplyr)
+library(stringr)
+library(rCharts)
+library(choroplethr)
+library(choroplethrMaps)
+knitr::opts_chunk$set(echo = TRUE)
+bp <- read.csv("/home/ray/R/w210_beer_demand/data/top1000beers_us.csv", 
+               stringsAsFactors = FALSE)
+bp$rating <- as.numeric(substr(bp$Ratings, 1, 5))
+bp$reviews <- substr(bp$Ratings, 6, nchar(bp$Ratings))
+bp$reviews <- as.numeric(gsub('\\(|\\)', '', bp$reviews))
+bp$Origin <- str_trim(bp$Origin, side='both')
+bp$state <- substr(bp$Origin, 1, 2)
+bp$state <- toupper(bp$state)
+bp <- bp[complete.cases(bp),]
+bp_by_state <- bp %>%
+    group_by(state) %>%
+    summarise(rating=mean(rating), 
+              reviews=sum(reviews))
+bp_by_state <- within(bp_by_state, 
+                      rating_quantile <- cut(rating, quantile(rating, probs=seq(0,1,0.2)), 
+                               include.lowest = TRUE, 
+                               labels = FALSE))
+state_abbr <- data.frame('state'=state.abb, 'region'=state.name)
+state_abbr$region <- tolower(state_abbr$region)
+bp <- left_join(bp, state_abbr, by='state')
+bp_by_state <- left_join(bp_by_state, state_abbr, by='state')
+bp_by_state <- bp_by_state[complete.cases(bp_by_state),]
+bp_by_state$value <- bp_by_state$rating
+```
+
+## Ratings by State
+
+The map below shows how beers from each state are rated on average.
+
+```{r rating_map, echo=FALSE}
+renderPlot({
+  state_choropleth(bp_by_state, 
+                   title = "Mean Beer Rating by State Brewed In",
+                   legend = "Mean Beer Rating",
+                   num_colors = 5)
+}
+)
+```
+
+## Mean Beer Ratings
+
+The distribution of average ratings of the top 1000 beers in the United States 
+as reported by BeerPal.com, an online community for beer afficiandos. 
+
+```{r rating_dist, echo=FALSE}
+inputPanel(
+  selectInput("n_breaks", label = "Number of bins:",
+              choices = seq(5, 50, 5), selected = 20),
+  sliderInput("avg_rating", label = "Min. Rating:",
+              min = 1, max = 5, step = 0.5, value = 3.5),
+  sliderInput("avg_rating2", label = "Max. Rating:",
+              min = 1, max = 5, step = 0.5, value = 4.5)
+)
+
+renderPlot({
+  ggplot(data=bp, aes(x=rating)) + 
+        geom_histogram(bins = as.numeric(input$n_breaks)) + 
+        xlim(c(input$avg_rating, input$avg_rating2)) +
+        xlab("Mean User Rating") + 
+        ggtitle("Distribution of BeerPal.com Ratings") + 
+        theme_few()
+})
+```
+
+

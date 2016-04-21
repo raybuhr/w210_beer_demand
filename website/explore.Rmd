@@ -1,0 +1,119 @@
+<br>
+
+# Exploring data of Beer Supply and Demand 
+
+This page is meant to guide you through the data publicly available regarding
+beer in as visual and interactive way possible. 
+
+<br>
+
+# Untappd
+
+**Socially media for beer drinkers, check it out at [Untappd](https://untappd.com)**
+
+> Untappd is a new mobile web app that allows you to socially share the brew you're currently enjoying, as well as where you're enjoying it, with your friends!
+
+This app shows where Untappd users are drinking different styles of beer. 
+Untappd users tend to be more heavily located on the U.S. coastal states, but you 
+should still be able to still some unique differences amound beer style preferences 
+among different regions of the country.  
+
+<iframe src="./Capstone Dashboard/" style="border: 1px solid #FFF; width: 900px; height: 700px"></iframe>
+
+<br>
+
+# FRED
+
+**From the [Economic Research Division of the Federal Reserve Bank of St. Louis](https://research.stlouisfed.org/docs/api/fred/fred.html)**
+
+> FRED® stands for Federal Reserve Economic Data. FRED® contains frequently updated US macro and regional economic time series at annual, quarterly, monthly, weekly, and daily frequencies. FRED® aggregates economic data from a variety of sources- most of which are US government agencies. The economic time series in FRED® contain observation or measurement periods associated with data values. For instance, the US unemployment rate for the month of January, 1990 was 5.4 percent and for the month of January, 2000 was 4.0 percent.
+
+We used the FRED API to extract data on the supply and sales of beer over a 20 year period,
+as well as price indices for breweries.
+
+<br>
+
+## Brewery Price Indices
+
+### What is a Price Index?
+
+**From the [Bureau Of Labor Statistics](http://www.bls.gov/ppi/data.htmhttp://www.bls.gov/ppi/data.htm)**
+
+> The Producer Price Index (PPI) program measures the average change over time in 
+> the selling prices received by domestic producers for their output. The prices 
+> included in the PPI are from the first commercial transaction for many products 
+> and some services.
+
+The data on price indices shows PPI for several different goods produced by breweries. 
+A PPI always has an initial date at which the index began. 
+This index date is usually when the agency recording began
+collecting data and is set to 100 for each of the categories below. 
+The index date for each category below is June 1, 1982.
+
+```{r prepare_date, include=FALSE}
+library(dygraphs)
+library(xts)
+fred_idx = read.csv("fred_idx.csv")
+fred_idx = fred_idx[, c(1, 2, 4, 5, 6)]
+fred_idx$index_date = as.Date(fred_idx$index_date)
+colnames(fred_idx) = c("index_date", "cases_bottles", "cases_cans", "barrels_and_kegs", "overall")
+fred_idx = as.xts(fred_idx[, 2:5], order.by = fred_idx[, 1])
+```
+
+```{r ts_graph_idx, echo=FALSE, warning=FALSE}
+dygraph(fred_idx, main = "Brewery Price Index Data") %>%
+  dyLegend(width = 600) %>%
+  dyRangeSelector()
+```
+
+<br><br>
+
+# BeerPal
+
+According to [BeerPal.com](http://www.beerpal.com/)
+
+> BeerPal is the most user friendly beer community in the world; a resource of beers, breweries, events and news with reviews and ratings.
+
+BeerPal has been collecting reviews on beers from users to build a list of the 
+[Top Beers](http://www.beerpal.com/Best-Beer.htm).
+
+The table and charts below highlight some interesting aspects about how the internet rates beers.
+
+### Top Beers as Rated on BeerPal
+
+The "rating" is average score of a Likert scale from 1 to 5, with 1 being "poor" 
+and 5 being "great". The "reviews" are how many times that beer was rated.
+
+```{r datatable, echo=FALSE, warning=FALSE}
+bp = read.csv("bp_ratings.csv", stringsAsFactors = FALSE)
+bp = bp[, c(10, 3, 5, 6, 8, 9)]
+DT::datatable(bp)
+```
+
+<br>
+
+### BeerPal User Submission Distributions 
+
+Use this app to explore how BeerPal.com users rate beers of different styles and 
+the states those beers came from.   
+
+*Please note that not all combinations have data. If you see an error message about invalid breaks, just try a different pair*  
+
+<iframe src="./BeerPal/" style="border: 1px solid #FFF; width: 900px; height: 420px"></iframe>
+
+### BeerPal Users' Preference by Brewery State
+
+The choropleth map below highlights the states with the highest rated beers. 
+While the total range in mean rating between states is pretty small, it is still 
+fun to take pride in knowing your home state brews some *mean* beers. 
+
+```{r rating_map, echo=FALSE, warning=FALSE}
+library(choroplethr)
+bp_by_state = read.csv("bp_rating_by_state.csv", stringsAsFactors = FALSE)
+state_choropleth(bp_by_state, 
+                   title = "Mean BeerPal Rating of Beers by State Brewed In",
+                   legend = "Mean Beer Rating",
+                   num_colors = 5)
+```
+
+

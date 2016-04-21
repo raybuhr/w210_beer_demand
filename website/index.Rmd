@@ -1,0 +1,83 @@
+<br>
+
+# Predicting the Demand of Beer Styles
+*Capstone project for UC Berkeley MIDS, Sping 2016*
+
+**Ray Buhr, Carson Forter, Satish Terala**
+
+<br>
+
+## GOAL:
+### Help brewers make the right beer in the right place at the right time.
+
+<br>
+
+## But Why Beer Models?
+
+- Big industry
+- Major year-over-year growth
+- Few players in the data/beer space
+- New players need data to succeed and represent an opportunity
+
+<br>
+
+## Brewery Supply and Demand
+
+According to the data available through the [Economic Research Division of the Federal Reserve Bank of St. Louis](https://research.stlouisfed.org/docs/api/fred/fred.html), 
+the total inventory of beer has grown fairly linearly over the last 20+ years. 
+The sales of beer has grown as well, but not matching the inventory quite exactly.  
+
+In the chart below, notice the seasonality in the sales of beer as each year, especially  
+that the months of January and February dip greatly from the peak months of November 
+and December. Starting about 2007 you can also see that inventory starts growing 
+faster than sales, which corresponds to beginning of the rise of craft and micro breweries 
+popping up accross the country.  
+
+```{r prepare_sales, include=FALSE}
+library(dygraphs)
+library(xts)
+fred_sales = read.csv("FRED_inventory_sales.csv")
+fred_sales = fred_sales[, c(2, 3, 4)]
+fred_sales$month = as.Date(fred_sales$month)
+fred_sales = as.xts(fred_sales[, 2:3], order.by = fred_sales[, 1])
+```
+
+```{r ts_graph_sales, echo=FALSE, warning=FALSE}
+dygraph(fred_sales, main = "Brewery Supply and Demand") %>%
+  dyLegend(width = 600) %>%
+  dyRangeSelector()
+```
+
+<br>
+
+## Data Science Approach
+
+**Get data**
+
+- Sales data and consumption data from various sources
+- Untappd, OpenBeerDB, FRED, Twitter
+
+**Clean and transform data**
+
+- Load all data into uniform RDBMS
+
+**Explore**
+
+- Do exploratory analysis to understand correlations and trends
+
+**Model**
+
+- Build and test various models to predict ratings, sentiment, and consumption location, including multiple models by style and location
+
+**Present and polish**
+
+- Visualize models in a Shiny dashboard for breweries to use
+
+<br>
+
+## Next Steps
+
+- Add sentiment aggregated by style to supplement maps
+- Adapt style model to account for regional biases in data 
+- Keep looking for new data sources to incorporate
+- Get more feedback from breweries of what problems they have that data science can solve

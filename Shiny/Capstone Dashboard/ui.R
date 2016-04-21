@@ -90,8 +90,8 @@ shinyUI(fluidPage(
       }
     "))
   ),
-  title="BEER DEMAND",
-  titlePanel(div(h1("BEER DEMAND"))), #, img(src='esh-logo.png', align = "right", width='230px'))),
+  #title="BEER DEMAND",
+  #titlePanel(div(h1("BEER DEMAND"))), #, img(src='esh-logo.png', align = "right", width='230px'))),
   sidebarLayout(
     conditionalPanel(condition="1==1",
       sidebarPanel(
@@ -109,12 +109,12 @@ shinyUI(fluidPage(
                               'OR','PA','RI','SC',
                               'SD','TN','TX','UT','VA',
                               'WA','WI','WV','WY'), selected='All'),
-      width=3
+      width=2
     )),
     mainPanel(
       tabsetPanel(
-        tabPanel("About", div(p(br(), "Beer Demand Dashboard For MIDS W210", br())), width="1000px"),
-        tabPanel("Map of Untappd Checkins", fluidRow(column(12, align = "center", plotOutput("gen_map", height="550px", width = "1000px"))),
+        #tabPanel("About", div(p(br(), "Beer Demand Dashboard For MIDS W210", br())), width="1000px"),
+        tabPanel("Map of Untappd Checkins", fluidRow(column(12, align = "center", plotOutput("gen_map", height="530px", width = "720px"))),
                  div(id="test1", class="test", textOutput("n_observations_ddt")))
          #navbarPage 
       )) #tabsetPanel() & mainPanel()

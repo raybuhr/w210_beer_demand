@@ -1,0 +1,360 @@
+alcoholToleranceMax,alcoholToleranceMin,attenuationMax,attenuationMin,category,description,fermentTempMax,fermentTempMin,id,name,productId,supplier,yeastFormat,yeastType
+,,,,yeast,,,,1531,10th Anniversary Blend,,,,
+15,10,80,75,yeast,"Used to produce Trappist style beers. Similar to WLP500, but is less fruity and more alcohol tolerant (up to 15% ABV). Excellent yeast for high gravity beers, Belgian ales, dubbels and trippels.",72,66,1756,Abbey Ale,WLP530,White Labs,liquid,ale
+15,10,82,74,yeast,"An authentic Trappist style yeast. Use for Belgian style ales, dubbels, trippels, and specialty beers. Fruit character is medium, in between WLP500 (high) and WLP530 (low).",72,66,1757,Abbey IV Ale,WLP540,White Labs,liquid,ale
+11,11,77,73,yeast,"Very clean, crisp flavor characteristics with low fruitiness and mild ester production. A very versatile yeast for styles that desire dominant malt and hop character. This strain makes a wonderful ?House? strain. Mild citrus notes develop with cooler 60-66?F (15-19?C) fermentations. Normally requires filtration for bright beers.",72,60,1835,American Ale,1056,Wyeast,liquid,ale
+12,8,80,72,yeast,"Our most popular yeast strain is WLP001, California Ale Yeast. This blend celebrates the strengths of California- clean, neutral fermentation, versatile usage, and adds two other strains that belong to the same 'clean/neutral' flavor category. The additional strains create complexity to the finished beer. This blend tastes more lager like than WLP001. Hop flavors and bitterness are accentuated, but not to the extreme of California. Slight sulfur will be produced during fermentation.",72,68,1534,American Ale Blend,WLP060,White Labs,liquid,ale
+10,10,76,72,yeast,"With many of the best qualities that brewers look for when brewing American styles of beer, this strain?s performance is consistent and it makes great beer. This versatile strain is a very good choice for a ?House? strain. Expect a soft, clean profile with hints of nut, and a slightly tart finish. Ferment at warmer temperatures to accentuate hop character with an increased fruitiness. Or, ferment cool for a clean, light citrus character. It attenuates well and is reliably flocculent, producing bright beer without filtration.",72,60,1836,American Ale II,1272,Wyeast,liquid,ale
+10,5,75,70,yeast,"This yeast is used to produce the Oregon style American Hefeweizen. Unlike WLP300, this yeast produces a very slight amount of the banana and clove notes. It produces some sulfur, but is otherwise a clean fermenting yeast, which does not flocculate well, producing a cloudy beer.",69,65,1536,American Hefeweizen Ale,WLP320,White Labs,liquid,wheat
+9,9,77,73,yeast,A complex and aromatic strain that can be used for a variety of lager beers. This strain is an excellent choice for Classic American Pilsner beers.,58,48,1837,American Lager,2035,Wyeast,liquid,lager
+10,5,80,75,yeast,This yeast is used to produce American style lagers. Dry and clean with a very slight apple fruitiness. Sulfur and diacetyl production is minimal.,55,50,1761,American Lager,WLP840,White Labs,liquid,lager
+,,,,yeast,,,,1538,American Megabrewery,,,,
+,,,,yeast,,,,1539,American Microbrewery Ale No.1,,,,
+,,,,yeast,,,,1540,American Microbrewery Ale No.2,,,,
+,,,,yeast,,,,1541,American Microbrewery Lager,,,,
+10,10,78,74,yeast,"A strong fermenting, true top cropping yeast that produces a dry, slightly tart, crisp beer. Ideal for beers when a low ester profile is desirable.",74,58,1838,American Wheat,1010,Wyeast,liquid,ale
+,,,,yeast,,,,1542,American Wheat Ale,,,,
+,,,,yeast,,,,1543,American White Ale,,,,
+10,5,80,73,yeast,"Clean, almost lager like Belgian type ale yeast. Good for Belgian type pales ales and amber ales, or with blends to combine with other Belgian type yeast strains. Biscuity, ale like aroma present. Hop flavors and bitterness are accentuated. Slight sulfur will be produced during fermentation, which can give the yeast a lager like flavor profile.",70,67,1762,Antwerp Ale,WLP515,White Labs,liquid,ale
+16,16,,80,yeast,"German red wine yeast, which results in spicy, fruit aromas. Perfect for Pinot Noir and Zinfandel. Slow to moderate fermenter which is cold tolerant.",90,50,1946,Assmanshausen Wine,WLP749,White Labs,liquid,wine
+,,,,yeast,,,,1544,Attenuation 80 percent,,,,
+10,5,75,70,yeast,"Produces a clean, malty beer. Pleasant ester character, can be described as ""bready."" Can ferment successfully, and clean, at higher temperatures. This yeast combines good flocculation with good attenuation.",70,65,1763,Australian Ale,WLP009,White Labs,liquid,ale
+15,15,,80,yeast,"Champagne isolate used for complexity in whites. Contributes elegance, especially in barrel fermented Chardonnays.",90,60,1942,Avize Wine,WLP718,White Labs,liquid,wine
+,,,,yeast,,,,1545,Bastogne Belgian Ale,,,,
+9,9,77,73,yeast,"Used by many German breweries to produce rich, full-bodied, malty beers, this strain is a good choice for bocks and dopplebocks. A thorough diacetyl rest is recommended after fermentation is complete.",58,46,1839,Bavarian Lager,2206,Wyeast,liquid,lager
+10,5,77,73,yeast,"Former Yeast Lab W51 yeast strain, acquired from Dan McConnell. The description originally used by Yeast Lab still fits: ""This strain produces a classic German-style wheat beer, with moderately high, spicy, phenolic overtones reminiscent of cloves.""",70,66,1764,Bavarian Weizen,WLP351,White Labs,liquid,wheat
+10,10,76,70,yeast,"A complex alternative to the standard German wheat strain profile. This strain produces apple, pear, and plum esters in addition to the dominant banana character. The esters are complemented nicely by clove and subtle vanilla phenolics. The balance can be manipulated towards ester production through increasing fermentation temperature, increasing the wort density, and decreasing the pitch rate. Over pitching can result in a near complete loss of banana character. Decreasing the ester level will allow a higher clove character to be perceived. Sulfur is commonly produced, but will dissipate with conditioning. This strain is very powdery and will remain in suspension for an extended amount of time following attenuation. This is true top cropping yeast and requires fermenter headspace of 33%.",75,64,1841,Bavarian Wheat,3638,Wyeast,liquid,ale
+10,10,77,73,yeast,This proprietary blend of a top-fermenting neutral ale strain and a Bavarian wheat strain is a great choice when a subtle German style wheat beer is desired. The complex esters and phenolics from the wheat strain are nicely softened and balanced by the neutral ale strain.,74,64,1840,Bavarian Wheat Blend,3056,Wyeast,liquid,wheat
+,,,,yeast,,,,1548,Bavarian Wheat Yeast,,,,
+10,5,80,72,yeast,"Ferments dry and flocculates very well. Produces a distinctive ester profile. Good choice for most English style ales including bitter, pale ale, porter, and brown ale.",70,65,1549,Bedford British,WLP006,White Labs,liquid,ale
+12,12,78,74,yeast,"A widely used and alcohol tolerant Abbey yeast that is suitable for a variety of Belgian style ales. This strain produces a nice ester profile as well as slightly spicy alcohol notes. It can be slow to start; however, it attenuates well.",78,68,1842,Belgian Abbey,1214,Wyeast,liquid,ale
+12,12,77,73,yeast,An excellent yeast strain for use in Belgian dark strong ales. This strain has a relatively ?clean profile? which allows a rich malt and distinctive ethanol character to shine. Delicate dried fruit esters can be produced when used at higher fermentation temperatures or in a high gravity wort.,75,65,1843,Belgian Abbey II,1762,Wyeast,liquid,ale
+,,,,yeast,,,,1960,Belgian Ale,,,,
+12,8,85,78,yeast,"Saisons, Belgian Ales, Belgian Reds, Belgian Browns, and White beers are just a few of the classic Belgian beer styles that can be created with this yeast strain. Phenolic and spicy flavors dominate the profile, with less fruitiness then WLP500.",78,68,1766,Belgian Ale,WLP550,White Labs,liquid,ale
+,,,,yeast,,,,1552,Belgian Ale No.1,,,,
+,,,,yeast,,,,1553,Belgian Ale No.2,,,,
+,,,,yeast,,,,1554,Belgian Ale No.3,,,,
+12,12,76,72,yeast,"One of the great and versatile strains for the production of classic Belgian style ales. This strain produces a beautiful balance of delicate fruit esters and subtle spicy notes; with neither one dominating. Unlike many other Belgian style strains, this strain is highly flocculent and results in bright beers.",76,65,1845,Belgian Ardennes,3522,Wyeast,liquid,ale
+15,10,80,74,yeast,"A high gravity, Trappist style ale yeast. Produces dry beer with slight acidic finish. More ?clean? fermentation character than WLP500 or WLP530. Not as spicy as WLP530 or WLP550. Excellent yeast for high gravity beers, Belgian ales, dubbels and trippels.",72,66,1767,Belgian Bastogne Ale,WLP510,White Labs,liquid,ale
+15,10,78,73,yeast,"From East Flanders, versatile yeast that can produce light Belgian ales to high gravity Belgian beers (12% ABV). A combination of fruitiness and phenolic characteristics dominate the flavor profile. Some sulfur is produced during fermentation, which will dissipate following the end of fermentation.",75,68,1768,Belgian Golden Ale,WLP570,White Labs,liquid,ale
+10,5,78,72,yeast,"Clean, crisp European lager yeast with low sulfur  production. The strain originates from a very old brewery in West Belgium. Great for European style pilsners, dark lagers, Vienna lager, and American style lagers.",55,50,1950,Belgian Lager,WLP815,White Labs,liquid,lager
+,,,,yeast,,,,1557,Belgian Lambic Blend,,,,
+12,12,80,76,yeast,"This strain is the classic farmhouse ale yeast. A traditional yeast that is spicy with complex aromatics, including bubble gum. It is very tart and dry on the palate with a mild fruitiness. Expect a crisp, mildly acidic finish that will benefit from elevated fermentation temperatures. This strain is notorious for a rapid and vigorous start to fermentation, only to stick around 1.035 S.G. Fermentation will finish, given time and warm temperatures. Warm fermentation temperatures at least 90?F (32?C) or the use of a secondary strain can accelerate attenuation.",95,70,1847,Belgian Saison,3724,Wyeast,liquid,ale
+10,5,75,65,yeast,"Classic Saison yeast from Wallonia. It produces earthy, peppery, and spicy notes. Slightly sweet. With high gravity Saisons, brewers may wish to dry the beer with an alternate yeast added after 75% fermentation.",75,68,1769,Belgian Saison I,WLP565,White Labs,liquid,ale
+,,,,yeast,,,,1558,Belgian Saison I Ale,,,,
+10,5,85,78,yeast,"Saison strain with more fruity ester production than with WLP565. Moderately phenolic, with a clove-like characteristic in finished beer flavor and aroma. Ferments faster than WLP565.",78,68,1770,Belgian Saison II,WLP566,White Labs,liquid,ale
+,,,,yeast,,,,1559,Belgian Saison Yeast,,,,
+,,,,yeast,,,,1560,Belgian Schelde Ale Yeast,,,,
+13,12,78,74,yeast,"The classic choice for brewing golden strong ales. This alcohol tolerant strain will produce a complex ester profile balanced nicely with subtle phenolics. Malt flavors and aromas will remain even with a well attenuated dry, tart finish. It may continue to produce CO2 for an extended period after packaging or collection.",80,64,1848,Belgian Strong Ale,1388,Wyeast,liquid,ale
+15,10,85,78,yeast,"From the Ardennes region of Belgium, this classic yeast strain produces moderate levels of ester and spicy phenolic character. Typically results in a dry, but balanced finish. This yeast is well suited for Belgian dark strongs, Abbey Ales, and Christmas beers.",72,66,1772,Belgian Strong Ale,WLP545,White Labs,liquid,ale
+12,8,80,74,yeast,"A blend of Trappist type yeast (2) and one Belgian ale type yeast. This creates a versatile blend that can be used for Trappist type beer, or a myriad of beers that can be described as 'Belgian type'.",75,68,1773,Belgian Style Ale Blend,WLP575,White Labs,liquid,ale
+,,,,yeast,,,,1562,Belgian Style Ale Yeast Blend,,,,
+10,5,80,70,yeast,"This blend melds Belgian style ale and Saison strains. The strains work in harmony to create complex, fruity aromas and flavors. The blend of yeast strains encourages complete fermentation in a timely manner. Phenolic, spicy, earthy, and clove like flavors are also created.",80,70,1774,Belgian Style Saison Ale Blend,WLP568,White Labs,liquid,ale
+12,12,76,72,yeast,"Isolated from a small Belgian brewery, this strain produces beers with moderate esters and minimal phenolics. Apple, bubblegum and plum-like aromas blend nicely with malt and hops. This strain will finish dry with a hint of tartness.",74,64,1849,Belgian Wheat,3942,Wyeast,liquid,wheat
+,,,,yeast,,,,1564,Belgian Wheat Yeast,,,,
+10,5,78,74,yeast,"Slightly phenolic and tart, this is the original yeast used to produce Wit in Belgium.",74,67,1565,Belgian Wit Ale,WLP400,White Labs,liquid,wheat
+10,5,75,70,yeast,"Less phenolic than WLP400, and more spicy. Will leave a bit more sweetness, and flocculation is higher than WLP400. Use to produce Belgian Wit, spiced Ales, wheat Ales, and specialty Beers.",74,67,1566,Belgian Wit II Ale,WLP410,White Labs,liquid,wheat
+12,11,76,72,yeast,"This versatile witbier yeast strain can be used in a variety of Belgian style ales. This strain produces a complex flavor profile dominated by spicy phenolics with low to moderate ester production. It is a great strain choice when you want a delicate clove profile not to be overshadowed by esters. It will ferment fairly dry with a slightly tart finish that compliments the use of oats, malted and unmalted wheat. This strain is a true top cropping yeast requiring full fermenter headspace of 33%.",75,62,1850,Belgian Witbier,3944,Wyeast,liquid,wheat
+,,,,yeast,,,,1568,Bell's Oberon,,,,
+,,,,yeast,,,,1569,Biere De Garde,,,,
+9,9,77,73,yeast,"This Carlsberg type yeast is the most widely used lager strain in the world. This strain produces a distinct malty profile with some ester character and a crisp finish. A versatile strain, that is great to use with lagers or Pilsners for fermentations in the 45-55?F (8-12?C) range. It may also be used for Common beer production with fermentations at 65-68?F (18-20?C). A thorough diacetyl rest is recommended after fermentation is complete.",68,45,1852,Bohemian Lager,2124,Wyeast,liquid,lager
+14,14,,,yeast,"Produces distinctive intense berry, graham cracker nose. Jammy, rich, very smooth complex profile, slightly vinuous. Well suited to higher sugar content musts.",90,60,1853,Bordeaux,4267,Wyeast,liquid,wine
+,,,,yeast,,,,1571,Bread yeast (any variety),,,,
+,,,,yeast,,,,1963,Brettanomyces,,,,
+,,,,yeast,,,,1572,Brettanomyces Bruxellensis,,,,
+,,,,yeast,,,,1573,Brettanomyces Claussenii,,,,
+,,,,yeast,,,,1574,Brettanomyces Lambicus,,,,
+,,,,yeast,,,,1575,Brewferm Blanche Dry Yeast,,,,
+,,,,yeast,,,,1576,Brewferm Lager Dry Yeast,,,,
+10,5,74,67,yeast,"This yeast is a little more attenuative than WLP002. Like most English strains, this yeast produces malty beers. Excellent for all English style ales including bitter, pale ale, porter, and brown ale.",70,65,1577,British Ale,WLP005,White Labs,liquid,ale
+10,10,75,73,yeast,"This yeast allows malt and hop character to dominate the profile. It ferments dry and crisp, slightly tart, fruity and well balanced. Beers will finish clean and neutral. Ferments well down to 64?F (18?C).",72,64,1857,British Ale,1098,Wyeast,liquid,ale
+10,10,76,73,yeast,"A classic British ale profile with good flocculation and malty flavor characteristics. It will finish crisp, clean and fairly dry.",75,63,1858,British Ale II,1335,Wyeast,liquid,ale
+,,,,yeast,,,,1579,British Cask Ale,,,,
+,,,,yeast,,,,1580,British Draft Ale,,,,
+,,,,yeast,,,,1581,British Microbrewery Ale,,,,
+,,,,yeast,,,,1582,British Pale Ale No.1,,,,
+,,,,yeast,,,,1583,British Pale Ale No.2,,,,
+,,,,yeast,,,,1584,British Real Ale,,,,
+9,9,75,71,yeast,"The Budvar strain has a nice malty nose with subtle fruit tones and a rich malt profile on the palate. It finishes malty but dry, well balanced and crisp. Hop character comes through in the finish.",56,48,1861,Budvar Lager,2000,Wyeast,liquid,lager
+,,,,yeast,,,,1585,Budvar Lager Yeast,,,,
+10,5,75,69,yeast,"From the famous brewing town of Burton upon Trent, England, this yeast is packed with character. It provides delicious subtle fruity flavors like apple, clover honey and pear. Great for all English styles, IPA's, bitters, and pales. Excellent in porters and stouts.",73,68,1586,Burton Ale,WLP023,White Labs,liquid,ale
+16,16,,80,yeast,"High temperature tolerance. Moderate fermentation speed. Excellent for full-bodied red wines, ester production complements flavor. WLP760 is also suitable for Merlot, Chardonnay, Chianti, Chenin Blanc, and Sauvignon Blanc.",90,60,1948,Cabernet Red Wine,WLP760,White Labs,liquid,wine
+15,10,80,73,yeast,"This yeast is famous for its clean flavors, balance and ability to be used in almost any style ale. It accentuates the hop flavors and is extremely versatile.",73,68,1587,California Ale,WLP001,White Labs,liquid,ale
+12,8,75,70,yeast,"From Northern California. This strain is more fruity than WLP001, and slightly more flocculent. Attenuation is lower, resulting in a fuller bodied beer than with WLP001.",70,66,1588,California Ale V,WLP051,White Labs,liquid,ale
+,,,,yeast,,,,1589,California Esteem,,,,
+9,9,71,67,yeast,"This strain is particularly well suited for producing 19th century-style West Coast beers with woody/minty hop flavor. It retains lager characteristics at temperatures up to 65?F (18?C) and produces malty, brilliantly clear beers. This strain is not recommended for cold temperature fermentation.",68,58,1862,California Lager,2112,Wyeast,liquid,lager
+,,,,yeast,,,,1591,California Pub Ale,,,,
+,,,,yeast,,,,1592,Canadian Ale,,,,
+,,,,yeast,,,,1593,Canadian/Belgian Style Yeast,,,,
+13,12,,,yeast,"Produces extremely fruity profile, high ester formation, bready aromas with vanilla notes. Allows fruit character to dominate aroma and flavor profile. Finishes slightly sweet and soft.",75,55,1832,Chablis,4242,Wyeast,liquid,wine
+17,17,,75,yeast,"Classic yeast, used to produce champagne, cider, dry meads, dry wines, or to fully attenuate barley wines & strong ales. Neutral.",75,70,1783,Champagne,WLP715,White Labs,liquid,champagne
+,,,,yeast,,,,1594,Champagne Yeast,,,,
+14,14,,80,yeast,"Dry wine yeast. Slight ester production, low sulfur dioxide production. Enhances varietal character. WLP730 is a good choice for all white and blush wines, including Chablis, Chenin Blanc, Semillon, and Sauvignon Blanc. Fermentation speed is moderate.",90,50,1943,Chardonnay White Wine,WLP730,White Labs,liquid,wine
+14,14,,,yeast,"Ideal for red or white wines, which mature rapidly with Beaujolais type fruitiness, and for bigger reds requiring aging. Low foaming, low sulfur production over a broad range of temperatures.",90,55,1951,Chateau Red,4028,Wyeast,liquid,wine
+14,14,,,yeast,"Rich, very big and bold, well rounded profile. Nice soft fruit character with dry crisp finish. Excellent choice for most Italian grape varieties.",75,55,1952,Chianti,4244,Wyeast,liquid,wine
+,,,,yeast,,,,1961,Chico 1056,,,,
+,,,,yeast,,,,1595,Chimay bottle culture,,,,
+,,,,yeast,,,,1596,Classic British Ale,,,,
+,,,,yeast,,,,1597,Cooper Ale,,,,
+,,,,yeast,,,,1598,Cooper's Ale Dry Yeast,,,,
+12,8,80,75,yeast,"This is a blend of ale and lager yeast strains.  The strains work together to create a clean, crisp, light American lager style ale. A pleasing estery aroma may be perceived from the ale yeast contribution. Hop flavors and bitterness are slightly subdued. Slight sulfur will be produced during fermentation, from the lager yeast.",70,65,1784,Cream Ale Blend,WLP080,White Labs,liquid,ale
+,,70,66,yeast,"Licensed from Charlie Papazian, this strain can ferment at ale and lager temperatures, allowing brewers to produce diverse beer styles. The recipes in both Papazian's books, The Complete Joy of Homebrewing and The Homebrewers Companion, were originally developed and brewed with this yeast. Optimum Cellaring Temperature: 50-55?F",74,68,1785,Cry Havoc (Ale),WLP862,White Labs,liquid,lager
+,,70,66,yeast,"Licensed from Charlie Papazian, this strain can ferment at ale and lager temperatures, allowing brewers to produce diverse beer styles. The recipes in both Papazian's books, The Complete Joy of Homebrewing and The Homebrewers Companion, were originally developed and brewed with this yeast. Optimum Lagering Temperature: 32-37?F",58,55,1786,Cry Havoc (Lager),WLP862,White Labs,liquid,lager
+10,5,80,75,yeast,"Pilsner lager yeast from Southern Czech Republic. Produces dry and crisp lagers, with low diacetyl production.",55,50,1787,Czech Budejovice Lager,WLP802,White Labs,liquid,lager
+9,9,74,70,yeast,"Originating from the home of great Pilsners in the Czech Republic, this classic Pilsner strain will finish dry and malty. It is the perfect choice for Pilsners and all malt beers. Sulfur produced during fermentation can be reduced with warmer fermentation temperatures 58?F (14?C) and will dissipate with conditioning.",58,50,1864,Czech Pils,2278,Wyeast,liquid,lager
+,,,,yeast,,,,1600,Czech Pilsner Lager,,,,
+9,9,77,73,yeast,"This yeast is a good choice for Dortmund-style lagers. It will ferment crisp and dry with a soft, rounded profile that accentuates hop characteristics.",56,46,1865,Danish Lager,2042,Wyeast,liquid,lager
+10,10,76,74,yeast,"This terrific all-round yeast can be used for almost any beer style, and is a mainstay of one of our local homebrewers, Mr. Denny Conn. It is unique in that it produces a big mouthfeel and accentuates the malt, caramel, or fruit character of a beer without being sweet or under-attenuated..",70,60,1867,Denny's Favorite 50,1450,Wyeast,liquid,ale
+,,77,77,yeast,"Diamond lager yeast gives true lager yeast performance together with the convenience & consistency of dry yeast, making Diamond the perfect choice for the full range of lager beers.",59,50,1957,Diamond,,Danstar,dry,lager
+,,,,yeast,,,,1605,Doric Ale,,,,
+,,,,yeast,,,,1606,"Dregs, JW Lees Harvest Ale",,,,
+12,8,80,70,yeast,"Clean, highly flocculent, and highly attenuative yeast. This yeast is similar to WLP002 in flavor profile, but is 10% more attenuative. This eliminates the residual sweetness, and makes the yeast well suited for high gravity ales. It is also reaches terminal gravity quickly. 80% attenuation will be reached even with 10% ABV beers.",70,65,1607,Dry English Ale,WLP007,White Labs,liquid,ale
+,,,,yeast,,,,1608,Dry Mead Yeast (WYeast 4362),,Wyeast,,
+10,5,72,65,yeast,"Traditional Alt yeast from Dusseldorf, Germany. Produces clean, slightly sweet alt beers. Does not accentuate hop flavor as WLP029 does.",69,65,1789,Dusseldorf Alt,WLP036,White Labs,liquid,ale
+,,,,yeast,,,,1609,Dutch Castle,,,,
+10,5,75,70,yeast,"Our ""Brewer Patriot"" strain can be used to reproduce many of the American versions of classic beer styles. Similar neutral character of WLP001, but less attenuation, less accentuation of hop bitterness, slightly less flocculation, and a little tartness. Very clean and low esters. Great yeast for golden, blonde, honey, pales and German alt style ales.",73,68,1610,East Coast Ale,WLP008,White Labs,liquid,ale
+,,,,yeast,,,,1611,East European Lager,,,,
+,,,,yeast,,,,1612,ECY01 BugFarm,,,,
+,,,,yeast,,,,1613,ECY02 Flemish Ale,,,,
+,,,,yeast,,,,1614,ECY03 Farmhouse Brett,,,,
+,,,,yeast,,,,1615,ECY04 BRETT Blend 1,,,,
+,,,,yeast,,,,1616,ECY05 BRETT Blend 9,,,,
+,,,,yeast,,,,1617,ECY07 Scottish Heavy,,,,
+,,,,yeast,,,,1618,ECY08 Saison Brasserie Blend,,,,
+,,,,yeast,,,,1619,ECY10 Old Newark Ale,,,,
+,,,,yeast,,,,1620,ECY12 Old Newark Beer,,,,
+,,,,yeast,,,,1621,ECY13 Trappist Ale,,,,
+12,8,75,70,yeast,"Scotland is famous for its malty, strong ales. This yeast can reproduce complex, flavorful Scottish style ales. This yeast can be an everyday strain, similar to WLP001. Hop character is not muted with this strain, as it is with WLP002.",70,65,1622,Edinburgh Scottish Ale,WLP028,White Labs,liquid,ale
+,,,,yeast,,,,1623,Edme Ale Dry Yeast,,,,
+,,,,yeast,,,,1624,Edme Ale Yeast,,,,
+10,5,70,63,yeast,"A classic ESB strain from one of England's largest independent breweries. This yeast is best suited for English style ales including milds, bitters, porters, and English style stouts. This yeast will leave a beer very clear, and will leave some residual sweetness.",68,65,1625,English Ale,WLP002,White Labs,liquid,ale
+,,,,yeast,,,,1626,English Ale II,,,,
+12,8,,80,yeast,"Classic cider yeast. Ferments dry, but retains flavor from apples. Sulfur is produced during fermentation, but will disappear in first two weeks of aging. Can also be used for wine and high gravity beers.",75,68,1627,English Cider,WLP775,White Labs,liquid,wine
+,,,,yeast,,,,1628,English Special Bitter,,,,
+10,5,76,71,yeast,"Flavorful British style yeast. Drier finish than many British ale yeast. Produces slightly fruity and bready character.    Good top fermenting yeast strain, is well suited for top cropping (collecting). This yeast is well suited for classic British milds, pale ales, bitters, and stouts. Does not flocculate as much as WLP002 and WLP005.",70,66,1629,Essex Ale,WLP022,White Labs,liquid,ale
+10,10,71,67,yeast,"A full-bodied strain, finishing very malty with a complex flavor profile. This strain?s characteristics are very desirable in English style brown ales and porters. It produces a dense, rocky head during fermentation, and can be a slow to start and to attenuate. This yeast may continue to produce CO2 for an extended period after packaging or collection.",72,62,1868,European Ale,1338,Wyeast,liquid,ale
+10,5,70,65,yeast,"Malty, Northern European-origin ale yeast. Low ester production, giving a clean profile. Little to no sulfur production. Low attenuation helps to contribute to the malty character. Good for Alt, Kolsch, malty English ales, and fruit beers.",70,65,1630,European Ale,WLP011,White Labs,liquid,ale
+,,,,yeast,,,,1631,European Lager II,,,,
+,,,,yeast,,,,1632,Farmhouse Ale,,,,
+,,,,yeast,,,,1633,Fermentis Safeale S-04,,,,
+,,,,yeast,,,,1634,Fermentis Saflager S-23,,,,
+,,,,yeast,,,,1635,Fermentis US-05,,,,
+,,,,yeast,,,,1636,Fermentis WB-06 Dry Wheat Beer Yeast,,,,
+16,16,,80,yeast,"This yeast develops a film (flor) on the surface of the wine. Creates green almond, granny smith and nougat characteristics found in sherry. Can also be used for Port, Madeira and other sweet styles. For use in secondary fermentation. Slow fermentor.",,70,1637,Flor Sherry,WLP700,White Labs,liquid,wine
+,,,,yeast,,,,1638,Flying Dog Ale Yeast,,,,
+12,12,76,72,yeast,"A widely used strain in the production of Witbier and Grand Cru. This yeast will produce spicy phenolics which are balanced nicely by a complex ester profile. The subtle fruit character and dry tart finish will complement wheat malt, orange peel and spice additions typical of Wits.",76,63,1871,Forbidden Fruit,3463,Wyeast,liquid,ale
+17,17,,80,yeast,"Classic Bordeaux yeast for red wine fermentations. Moderate fermentation characteristics. Tolerates lower fermentation temperatures. Rich, smooth flavor profile.",90,60,1947,French Red Wine,WLP750,White Labs,liquid,wine
+12,12,83,77,yeast,"A very versatile strain that produces Saison or farmhouse style biers as well as other Belgian style beers that are highly aromatic (estery), peppery, spicy and citrusy. This strain enhances the use of spices and aroma hops, and is extremely attenuative but leaves an unexpected silky and rich mouthfeel. This strain can also be used to re-start stuck fermentations or in high gravity beers.",77,65,1872,French Saison,3711,Wyeast,liquid,ale
+16,16,,80,yeast,Classic yeast for white wine fermentation. Slow to moderate fermenter and foam producer. Gives an enhanced creamy texture.,90,60,1944,French White Wine,WLP735,White Labs,liquid,wine
+,,,,yeast,,,,1640,Gambrinus Lager Yeast,,,,
+11,11,77,73,yeast,"A true top cropping yeast with low ester formation and a broad temperature range. Fermentation at higher temperatures may produce mild fruitiness. This powdery strain results in yeast that remains in suspension post fermentation. Beers mature rapidly, even when cold fermentation is used. Low or no detectable diacetyl.",68,55,1873,German Ale,1007,Wyeast,liquid,ale
+,,,,yeast,,,,1642,German Ale II,,,,
+10,5,78,72,yeast,"From a small brewpub in Cologne, Germany, this yeast works great in K?lsch and Alt style beers. Good for light beers like blond and honey. Accentuates hop flavors, similar to WLP001. The slight sulfur produced during fermentation will disappear with age and leave a super clean, lager like ale.",69,65,1643,German Ale/Kölsch,WLP029,White Labs,liquid,ale
+12,8,76,70,yeast,"From the Alps of southern Bavaria, this yeast produces a beer that is well balanced between malt and hop character. The excellent malt profile makes it well suited for Bocks, Doppelbocks, and Oktoberfest style beers. Very versatile lager yeast, it is so well balanced that it has gained tremendous popularity for use in Classic American style Pilsners. Also good for Helles style lager beer.",55,48,1799,German Bock Lager,WLP833,White Labs,liquid,lager
+10,5,79,74,yeast,"This yeast is one of the most widely used lager yeasts in the world. Very malty and clean, great for all German lagers, Pilsner, Oktoberfest, and Marzen.",55,50,1800,German Lager,WLP830,White Labs,liquid,lager
+,,,,yeast,,,,1646,German Weiss,,,,
+10,10,76,70,yeast,"A highly flocculent German wheat beer strain that is the perfect choice for use in Kristallweizen. This yeast strain produces a beautiful and delicate balance of banana esters and clove phenolics similar to the popular Wyeast 3068. However, this strain will sediment rapidly, resulting in bright beer without filtration. The balance can be manipulated towards ester production through increasing fermentation temperature, increasing the wort density, and decreasing the pitch rate. Over pitching can result in a near complete loss of banana character. Sulfur is commonly produced, but will dissipate with conditioning.",75,63,1874,German Wheat,3333,Wyeast,liquid,wheat
+,,,,yeast,,,,1648,Gervin English Ale Yeast,,,,
+10,5,76,72,yeast,"This famous German yeast is a strain used in the production of traditional, authentic wheat beers. It produces the banana and clove nose traditionally associated with German wheat beers and leaves the desired cloudy look of traditional German wheat beers.",72,68,1801,Hefeweizen Ale,WLP300,White Labs,liquid,wheat
+10,5,80,73,yeast,"Large clove and phenolic aroma and flavor, with minimal banana. Refreshing citrus and apricot notes. Crisp, drinkable hefeweizen. Less flocculent than WLP300, and sulfur production is higher.",70,66,1650,Hefeweizen IV Ale,WLP380,White Labs,liquid,wheat
+,,,,yeast,,,,1651,Hoegaarden (bottle cultured),,,,
+,,,,yeast,,,,1962,House Ale Yeast,,,,
+,,,,yeast,,,,1652,Ingelmunster Ale,,,,
+12,12,75,71,yeast,"This versatile yeast ferments extremely well in dark worts. It is a good choice for most high gravity beers. Beers fermented in the lower temperature range produce a dry, crisp profile with subtle fruitiness. Fruit and complex esters will increase when fermentation temperatures are above 64?F (18?C).",72,62,1881,Irish Ale,1084,Wyeast,liquid,ale
+12,8,74,69,yeast,"This is the yeast from one of the oldest stout producing breweries in the world. It produces a slight hint of diacetyl, balanced by a light fruitiness and slight dry crispness. Great for Irish ales, stouts, porters, browns, reds and a very interesting pale ale.",68,65,1653,Irish Ale,WLP004,White Labs,liquid,ale
+,,,,yeast,,,,1654,Irish Dry Stout,,,,
+,,,,yeast,,,,1655,Jolly Pumpkin Bam Biere Yeast,,,,
+,,,,yeast,,,,1656,"Kellerweis, Sierra Nevada culture",,,,
+,,,,yeast,,,,1657,Klassic Ale Yeast,,,,
+,,,,yeast,,,,1658,Kolsch,,,,
+,,,,yeast,,,,1659,Kolsch Yeast,,,,
+,,,,yeast,,,,1660,Lactobacillus Delbrueckii,,,,
+,,,,yeast,,,,1661,Lalvin - K1V-1116,,,,
+,,,,yeast,,,,1662,Lalvin 71B-1122,,,,
+,,,,yeast,,,,1663,Lalvin D-47,,,,
+,,,,yeast,,,,1664,Lalvin EC-1118,,,,
+,,,,yeast,,,,1665,Lalvin RC 212 (Bourgovin),,,,
+,,,,yeast,,,,1666,Leuven Pale Ale Yeast,,,,
+,,,,yeast,,,,1667,Local brewery Yeast,,,,
+,,,,yeast,,,,1668,London,,,,
+11,11,77,73,yeast,"A rich, minerally profile that is bold and crisp with some fruitiness. Often used for higher gravity ales and when a high level of attenuation is desired.",72,60,1890,London Ale,1028,Wyeast,liquid,ale
+10,5,75,67,yeast,"Dry, malty ale yeast. Provides a complex, oakey ester character to your beer. Hop bitterness comes through well. This yeast is well suited for classic British pale ales, bitters, and stouts. Does not flocculate as much as WLP002 and WLP005.",71,66,1669,London Ale,WLP013,White Labs,liquid,ale
+,,,,yeast,,,,1670,London Ale Dry Yeast,,,,
+10,10,75,71,yeast,"Originating from a traditional London brewery, this yeast has a wonderful malt and hop profile. It is a true top cropping strain with a fruity, very light and softly balanced palate. This strain will finish slightly sweet.",74,64,1891,London Ale III,1318,Wyeast,liquid,ale
+9,9,71,67,yeast,"A very good cask conditioned ale strain, this extremely flocculant yeast produces distinctly malty beers. Attenuation levels are typically less than most other yeast strains which results in a slightly sweeter finish. Ales produced with this strain tend to be fruity, increasingly so with higher fermentation temperatures of 70-74?F (21-23? C). A thorough diacetyl rest is recommended after fermentation is complete. Bright beers are easily achieved within days without any filtration.",72,64,1892,London ESB Ale,1968,Wyeast,liquid,ale
+12,8,74,70,yeast,"Top-fermenting strain that is traditionally good for top-cropping. Moderately flocculent with a clean, dry finish. Low ester profile, producing a highly balanced English-style beer.",70,65,1673,Manchester Ale,WLP038,White Labs,liquid,ale
+,,,,yeast,,,,1674,Mauri Brew,,,,
+18,18,,80,yeast,"Neutral, low fusel alcohol production. Will ferment to dryness, alcohol tolerance to 18%. Vigorous fermenter. WLP740 is well suited for Merlot, Shiraz, Pinot Noir, Chardonnay, Cabernet, Sauvignon Blanc, and Semillon.",90,60,1945,Merlot Red Wine,WLP740,White Labs,liquid,wine
+10,5,78,70,yeast,"From Mexico City, this yeast produces clean lager beer, with a crisp finish. Good for Mexican style light lagers, as well as dark lagers.",55,50,1805,Mexican Lager,WLP940,White Labs,liquid,lager
+,,75,75,yeast,The propagation and drying processes for Munich yeast has been specifically designed to deliver high quality brewing yeast that can be used to produce wheat beers of the finest quality.,70,64,1602,Munich,,Danstar,dry,wheat
+,,,,yeast,,,,1676,Munich German Wheat Dry Ale Yeast,,,,
+9,9,74,70,yeast,"This is a unique strain, capable of producing fine lagers. It is very smooth, well-rounded and full-bodied. A thorough diacetyl rest is recommended after fermentation is complete.",56,48,1893,Munich Lager,2308,Wyeast,liquid,lager
+,,,,yeast,,,,1678,Munton Fison Ale,,,,
+,,,,yeast,,,,1679,Munton's Dry Yeast,,,,
+,,,,yeast,,,,1680,Muntons Premium Gold,,,,
+,,,,yeast,,,,1681,Mute Dog Feral Yeast Blend,,,,
+,,,,yeast,,,,1682,North American Lager,,,,
+,,,,yeast,,,,1683,North-Eastern Micro Ale,,,,
+,,,,yeast,,,,1684,Northern German Lager,,,,
+10,10,71,67,yeast,One of the classic ale strains from a Northwest U.S. Brewery. It produces a malty and mildly fruity ale with good depth and complexity.,75,65,1895,Northwest Ale,1332,Wyeast,liquid,ale
+,,77,77,yeast,"The Nottingham strain was selected for its highly flocculant & relatively full attenuation properties. It produces low concentrations of fruity and estery aromas and has been described as neutral for ale yeast, allowing the full natural flavor of malt & hops to develop.",70,57,1603,Nottingham,,Danstar,dry,ale
+10,5,82,73,yeast,"British style ale yeast with a very dry finish. Medium to low fruit and fusel alcohol production. Good top fermenting yeast strain, is well suited for top cropping (collecting). This yeast is well suited for pale ales, ambers, porters, and stouts.",70,66,1806,Nottingham Ale,WLP039,White Labs,liquid,ale
+,,,,yeast,,,,1687,Nottingham Ale Dry Yeast,,,,
+,,,,yeast,,,,1688,Nottingham Yeast,,,,
+9,9,77,73,yeast,"This blend of lager strains is designed to produce a rich, malty, complex and full bodied Octoberfest style beer. It attenuates well while leaving plenty of malt character and mouthfeel. This strain is low in sulfur production.",58,48,1896,Octoberfest Lager Blend,2633,Wyeast,liquid,lager
+,,,,yeast,,,,1690,Octoberfest/Marzen Lager,,,,
+12,8,73,65,yeast,"This yeast produces a very malty, bock like style. It does not finish as dry as WLP830. This yeast is much slower in the first generation than WLP830, so we encourage a larger starter to be used the first generation or schedule a longer lagering time.",58,52,1807,Oktoberfest/Märzen Lager,WLP820,White Labs,liquid,lager
+12,8,73,66,yeast,"From Southern Germany, this yeast finishes malty with a slight ester profile. Use in beers such as Oktoberfest, Bock, and Dark Lagers.",55,50,1808,Old Bavarian Lager,WLP920,White Labs,liquid,lager
+,,,,yeast,,,,1692,Old German Ale,,,,
+,,,,yeast,,,,1693,Olde Suffolk,,,,
+,,,,yeast,,,,1694,Original Pilsner,,,,
+,,,,yeast,,,,1695,Orval Culture,,,,
+,,,,yeast,,,,1696,Orval Dregs,,,,
+10,5,70,65,yeast,"A popular ale yeast from the Pacific Northwest. The yeast will clear from the beer well, and leave a malty profile. More fruity than WLP002, English Ale Yeast. Good yeast for English style ales including milds, bitters, IPA, porters, and English style stouts.",68,65,1809,Pacific Ale,WLP041,White Labs,liquid,ale
+17,17,,,yeast,"Used in many white wine fermentations and also some red wines. Also used for secondary fermentation of barley wine. Ferments crisp and dry, ideal for base wines in champagne making. Low foaming, excellent barrel fermentation, good flocculating characteristics.",75,55,1824,Pasteur Champagne,4021,Wyeast,liquid,champagne
+,,,,yeast,,,,1698,Pasteur Red Wine,,,,
+,,,,yeast,,,,1699,Pediococcus,,,,
+,,,,yeast,,,,1700,Pediococcus Cerevisiae,,,,
+,,,,yeast,,,,1701,Pediococcus Damnosus,,,,
+9,9,75,71,yeast,"Wyeast 2007 is the classic American lager strain. This mild, neutral strain produces beers with a nice malty character and a smooth palate. It ferments dry and crisp with minimal sulfur or diacetyl. Beers from this strain exhibit the characteristics of the most popular lager in America.",56,48,1900,Pilsen Lager,2007,Wyeast,liquid,lager
+10,5,77,72,yeast,"Classic pilsner strain from the premier pilsner producer in the Czech Republic. Somewhat dry with a malty finish, this yeast is best suited for European pilsner production.",55,50,1810,Pilsner Lager,WLP800,White Labs,liquid,lager
+,,,,yeast,,,,1704,Pilsner Urqell,,,,
+14,14,,,yeast,"Mild toast and vanilla nose. Mild fruit profile with balanced depth and complexity. Very dry finish. Dry red and white wines, add brandy for classic ports. Also used for big red wines and high sugar musts.",90,60,1953,Port Wine,4767,Wyeast,liquid,wine
+,,,,yeast,,,,1705,Premium Bitter Ale,,,,
+,,,,yeast,,,,1706,Real Brewers Yeast - Lucky No. 7,,,,
+,,,,yeast,,,,1707,Real Brewers Yeast - The One,,,,
+,,,,yeast,,,,1708,Real Brewers Yeast - Ye Old English,,,,
+,,,,yeast,,,,1709,Red Star Ale,,,,
+,,,,yeast,,,,1710,Red Star Cotes De Blancs,,,,
+,,,,yeast,,,,1711,Red Star Dry Pasteur Champagne Yeast,,,,
+,,,,yeast,,,,1712,Red Star Premier Cuvee,,,,
+10,10,72,68,yeast,"A top cropping yeast strain with unique fermentation and flavor characteristics. Expect distinct fruit esters with a malty, complex profile. Flocculation is high, and the beer will clear well without filtration. A thorough diacetyl rest is recommended after fermentation is complete.",74,64,1901,Ringwood Ale,1187,Wyeast,liquid,ale
+11,11,80,80,yeast,"Our blend of lambic cultures produce beer with a complex, earthy profile and a distinctive pie cherry sourness. Aging up to 18 months is required for a full flavor profile and acidity to develop. Specific proportions of a Belgian style ale strain, a sherry strain, two Brettanomyces strains, a Lactobacillus culture, and a Pediococcus culture produce the desirable flavor components of these beers as they are brewed in West Flanders. Propagation of this culture is not recommended and will result in a change of the proportions of the individual components. This blend will produce a very dry beer due to the super-attenuative nature of the mixed cultures.",85,65,1902,Roeselare Ale Blend,3763,Wyeast,liquid,ale
+,,,,yeast,,,,1714,Roeselare Belgian Blend,,,,
+,,,,yeast,,,,1715,Rogue Pacman Ale Yeast,,,,
+14,14,,,yeast,"Produces distinct Riesling character. Rich flavor, creamy, fruity profile with nice dry finish and a hint of Riesling sweetness in the aftertaste.",75,55,1903,Rudesheimer,4783,Wyeast,liquid,wine
+,,72,72,yeast,,75,59,1716,Safale American Ale,US-56,Fermentis,dry,ale
+12,,77,73,yeast,"Ready-to-pitch American ale yeast for well balanced beers with low diacetyl and a very crisp end palate. Produces well balanced beers with low diacetyl and a very clean, crisp end palate.",75,59,1721,Safale American Ale,US-05,Fermentis,dry,ale
+8.5,6.5,72,72,yeast,"A well known English ale strain noted for its fast fermentation, fast settling and its ability to form a very compact sediment at the end of the fermentation, helping to improve beer clarity. Used in the production of a wide range of ales including English ale styles. This yeast is recommended for the production of a large range of ale beers and is specially well adapted to cask-conditioned ales and fermentation in cylindro-conical tanks.",75,59,1720,Safale English Ale,S-04,Fermentis,dry,ale
+,,,,yeast,,,,1718,SafAle German Ale,,,,
+,,,,yeast,,,,1719,Safale K-97,,,,
+,,72,72,yeast,A specialty yeast selected for wheat beer fermentations. The yeast produces subtle estery and phenol flavour notes typical of wheat beers.,75,59,1726,Safale Wheat Beer,WB-06,Fermentis,dry,ale
+,,,,yeast,,,,1722,SafBrew Ale,,,,
+11.5,8.5,72,72,yeast,A speciality yeast selected for its estery somewhat peppery and spicy flavour development.,75,59,1725,Safbrew Specialty Ale,T-58,Fermentis,dry,ale
+,,,,yeast,,,,1727,Saflager 189,,,,
+,,,,yeast,,,,1728,Saflager 34/70 (Weihenstephan),,,,
+6.5,5.5,72,72,yeast,"Originating from the famous VLB institute in Germany, true lager yeast capable of producing continental lagers with a fruity, estery note.",57,50,1723,Saflager German Lager,S-23,Fermentis,dry,lager
+,,,,yeast,,,,1729,SafLager German Lager,,,,
+,,,,yeast,,,,1730,Saflager S-23 Dry Yeast,,,,
+,,72,72,yeast,"This very popular strain is used by a large number of commercial breweries. Selected for its fairly neutral flavour development, this yeast is recommended for a wide range of lager and pilsen beers.",59,48,1956,Saflager Swiss Lager,S-189,Fermentis,dry,lager
+,,,,yeast,,,,1731,Saflager w 34/70,,,,
+,,,,yeast,,,,1732,SafLager Weinhenstephan Lager,,,,
+,,,,yeast,,,,1733,SafLager West European Lager,,,,
+,,,,yeast,,,,1734,Saison,,,,
+16,16,,80,yeast,"For use in rice based fermentations. For sake, use this yeast in conjunction with Koji (to produce fermentable sugar). WLP705 produces full body sake character, and subtle fragrance.",,70,1941,Sake,WLP705,White Labs,liquid,wine
+14,14,,,yeast,"Sake #9 used in conjunction with Koji for making wide variety of Asian Jius (rice based beverages). Full bodied profile, silky and smooth on palate with low ester production.",75,60,1904,Sake #9,4134,Wyeast,liquid,wine
+,,,,yeast,,,,1940,Samuel Adams lager yeast,,,,
+12,8,70,65,yeast,"This yeast is used to produce the ""California Common"" style beer. A unique lager strain which has the ability to ferment up to 65 degrees while retaining lager characteristics. Can also be fermented down to 50 degrees for production of marzens, pilsners and other style lagers.",65,58,1812,San Francisco Lager,WLP810,White Labs,liquid,lager
+12,12,73,69,yeast,"Our Scottish ale strain is ideally suited for the strong, malty ales of Scotland. This strain is very versatile, and is often used as a ?House? strain as it ferments neutral and clean. Higher fermentation temperatures will result in an increased ester profile.",75,55,1905,Scottish Ale,1728,Wyeast,liquid,ale
+,,,,yeast,,,,1737,Scottish Ale Yeast Cake,,,,
+,,,,yeast,,,,1738,Scottish Bitter,,,,
+10,5,76,68,yeast,"This yeast is characterized by a malty finish and balanced aroma. It is a strong fermentor, produces slight sulfur, and low diacetyl.",55,50,1813,Southern German Lager,WLP838,White Labs,liquid,lager
+,,,,yeast,,,,1740,Southwold Ale,,,,
+,,,,yeast,,,,1741,Special Ale,,,,
+,,,,yeast,,,,1742,Spontaneous/wild,,,,
+,,,,yeast,,,,1743,Staro Prague Lager,,,,
+14,14,,80,yeast,"German in origin, this yeast has high fruit/ester production. Perfect for Riesling and Gew?rztraminer. Moderate fermentation characteristics and cold tolerant.",90,50,1744,Steinberg-Geisenheim Wine,WLP727,White Labs,liquid,wine
+,15,,80,yeast,Can ferment up to 25% alcohol. From England. Produces ester character that increases with increasing gravity. Malt character dominates at lower gravities.,69,65,1814,Super High Gravity Ale,WLP099,White Labs,liquid,ale
+16,16,,80,yeast,Emphasizes fruit aromas in barrel fermentations. High nutrient requirement to avoid volatile acidity production.,90,60,1949,Suremain Burgundy Wine,WLP770,White Labs,liquid,wine
+15,15,75,,yeast,"A wine yeast strain that is less attenuative than WLP715, leaving some residual sweetness. Slightly fruity and will tolerate alcohol concentrations up to 15%. A good choice for sweet mead and cider, as well as Blush wines, Gew?rztraminer, Sauternes, Riesling.",75,70,1815,Sweet Mead/Wine,WLP720,White Labs,liquid,wine
+10,10,77,77,yeast,"This strain produces classic British bitters with a rich, complex flavor profile. The yeast has a light malt character, low fruitiness, low esters and is clean and well balanced.",72,62,1906,Thames Valley Ale,1275,Wyeast,liquid,ale
+,,,,yeast,,,,1748,Thames Valley Ale Yeast II,,,,
+15,10,80,75,yeast,"From one of the few remaining Trappist breweries remaining in the world, this yeast produces the distinctive fruitiness and plum characteristics. Excellent yeast for high gravity beers, Belgian ales, dubbels and trippels.",72,65,1816,Trappist Ale,WLP500,White Labs,liquid,ale
+12,11,78,74,yeast,"A classic strain selection for brewing Belgian dubbel or Belgian tripel. This Abbey strain produces a nice balance of complex fruity esters and phenolics, making it desirable for use in other Belgian style ales as well. A flocculent, true top cropping yeast (additional headspace is recommended), that will work over a broad temperature range. This strain makes a great Belgian style ?House? strain.",78,64,1907,Trappist High Gravity,3787,Wyeast,liquid,ale
+9,9,76,72,yeast,With a mild fruit and floral aroma this strain has a very dry and clean palate with a full mouthfeel and nice subtle malt character. It has a very clean and neutral finish.,56,48,1908,Urquell Lager,2001,Wyeast,liquid,lager
+,,,,yeast,,,,1751,Vintner's Harvest SN9,,,,
+10,10,77,73,yeast,"The classic and most popular German wheat beer strain used worldwide. This yeast strain produces a beautiful and delicate balance of banana esters and clove phenolics. The balance can be manipulated towards ester production through increasing the fermentation temperature, increasing the wort density, and decreasing the pitch rate. Over pitching can result in a near complete loss of banana character. Decreasing the ester level will allow a higher clove character to be perceived. Sulfur is commonly produced, but will dissipate with conditioning. This strain is very powdery and will remain in suspension for an extended amount of time following attenuation. This is true top cropping yeast and requires fermenter headspace of 33%.",75,64,1909,Weihenstephan Weizen,3068,Wyeast,liquid,wheat
+,,,,yeast,,,,1753,West Yorkshire Ale,,,,
+10,10,72,68,yeast,"A mildly malty and slightly fruity fermentation profile. It is less tart and dry than Wyeast 1098 British Ale. With good flocculation characteristics, this yeast clears well without filtration. Low fermentation temperatures will produce a clean finish with a very low ester profile.",75,64,1860,Whitbread Ale,1099,Wyeast,liquid,ale
+,,,,yeast,,,,1755,Whitbread Ale Dry Yeast,,,,
+,,,,yeast,,,,1758,White Labs American Ale Blend (WLP060),,White Labs,,
+,,,,yeast,,,,1759,White Labs American Farmhouse Blend (WLP670),,White Labs,,
+,,,,yeast,,,,1760,White Labs American Hefeweizen Ale (WLP320),,White Labs,,
+,,,,yeast,,,,1765,White Labs Bedford British (WLP006),,White Labs,,
+,,,,yeast,,,,1771,White Labs Belgian Sour Mix 1 (WLP655),,White Labs,,
+,,,,yeast,,,,1775,White Labs Belgian Wit Ale (WLP400),,White Labs,,
+,,,,yeast,,,,1776,White Labs Belgian Wit II Ale (WLP410),,White Labs,,
+,,,,yeast,,,,1777,White Labs Berliner Weisse Blend (WLP630),,White Labs,,
+,,,,yeast,,,,1778,White Labs Brettanomyces lambicus (WLP 653),,White Labs,,
+,,,,yeast,,,,1779,White Labs British Ale (WLP005),,White Labs,,
+,,,,yeast,,,,1780,White Labs Burton Ale (WLP023),,White Labs,,
+,,,,yeast,,,,1781,White Labs California Ale (WLP001),,White Labs,,
+,,,,yeast,,,,1782,White Labs California Ale V (WLP051),,White Labs,,
+,,,,yeast,,,,1788,White Labs Dry English Ale (WLP007),,White Labs,,
+,,,,yeast,,,,1790,White Labs East Coast Ale (WLP008),,White Labs,,
+,,,,yeast,,,,1791,White Labs Edinburgh Scottish Ale (WLP028),,White Labs,,
+,,,,yeast,,,,1792,White Labs English Ale (WLP002),,White Labs,,
+,,,,yeast,,,,1793,White Labs English Ale Blend (WLP085),,White Labs,,
+,,,,yeast,,,,1794,White Labs Essex Ale (WLP022),,White Labs,,
+,,,,yeast,,,,1795,White Labs European Ale (WLP011),,White Labs,,
+,,,,yeast,,,,1796,White Labs French Ale (WLP072),,White Labs,,
+,,,,yeast,,,,1797,White Labs German Ale (WLP003),,White Labs,,
+,,,,yeast,,,,1798,White Labs German Ale / Kolsh (WLP029),,White Labs,,
+,,,,yeast,,,,1802,White Labs Hefeweizen IV Ale (WLP380),,White Labs,,
+,,,,yeast,,,,1803,White Labs Irish Ale (WLP004),,White Labs,,
+,,,,yeast,,,,1804,White Labs London Ale (WLP013),,White Labs,,
+,,,,yeast,,,,1811,White Labs San Diego Super Yeast,,White Labs,,
+,,,,yeast,,,,1819,White LabsBrettanomyces bruxellensis (WLP 650),,White Labs,,
+,,72,72,yeast,"Windsor ale yeast is a true English strain that produces a beer which is estery to both palate and nose with a slight fresh yeasty flavor. Beers created with Windsor are usually described as full-bodied, fruity English ales. Brewers choose Windsor to produce beers that range from pale ale to porter with moderate alcohol levels and the flavor & aroma characteristics of the best traditional ales.",70,64,1604,Windsor,,Danstar,dry,ale
+,,,,yeast,,,,1820,Windsor Ale Dry Yeast,,,,
+,,,,yeast,,,,1821,Windsor Yeast,,,,
+,,,,yeast,,,,1822,WLP645 Brettanomyces claussenii,,,,
+,,,,yeast,,,,1823,Wyeast - Pac Man (1764),,Wyeast,,
+,11,77,73,yeast,"Very clean, crisp flavor characteristics with low fruitiness and mild ester production. A very versatile yeast for styles that desire dominant malt and hop character. This strain makes a wonderful “House” strain. Mild citrus notes develop with cooler 60-66°F (15-19ºC) fermentations. Normally requires filtration for bright beers.",72,60,1958,Wyeast 1056 American Ale,,Wyeast,liquid,ale
+,,,,yeast,,,,1825,Wyeast 1737 (Flying Dog Ale Yeast),,Wyeast,,
+,,,,yeast,,,,1826,Wyeast 1882 Thames Valley II,,Wyeast,,
+,,,,yeast,,,,1827,Wyeast 2252-PC Rasenmaher Lager Yeast,,Wyeast,,
+,,,,yeast,,,,1828,Wyeast 3725 Bier De Garde Private Collection,,Wyeast,,
+,,,,yeast,,,,1829,Wyeast 3725-PC Bier de Garde Yeast,,Wyeast,,
+,,,,yeast,,,,1830,Wyeast 3789-PC Trappist Blend,,Wyeast,,
+,,,,yeast,,,,1831,Wyeast 3864 Canadian/Belgian,,Wyeast,,
+,,,,yeast,,,,1833,Wyeast 4347 Eau de Vie,,Wyeast,,
+,,,,yeast,,,,1834,Wyeast Ale Blend,,Wyeast,,
+,,,,yeast,,,,1844,Wyeast Belgian Ale (1214),,Wyeast,,
+,,,,yeast,,,,1846,Wyeast Belgian Lambic Blend (3278),,Wyeast,,
+,,,,yeast,,,,1851,Wyeast Berliner Weisse Blend (3191),,Wyeast,,
+,,,,yeast,,,,1854,Wyeast Brettanomyces bruxellensis (5112),,Wyeast,,
+,,,,yeast,,,,1855,Wyeast Brettanomyces claussenii,,Wyeast,,
+,,,,yeast,,,,1856,Wyeast Brettanomyces lambicus (5526),,Wyeast,,
+,,,,yeast,,,,1859,Wyeast British Cask Ale (1026),,Wyeast,,
+,,,,yeast,,,,1863,Wyeast Cider (4766),,Wyeast,,
+,,,,yeast,,,,1866,Wyeast Dennys Favorite 50,,Wyeast,,
+,,,,yeast,,,,1869,Wyeast Farmhouse 3726,,Wyeast,,
+,,,,yeast,,,,1870,Wyeast Flanders Golden Ale (3739-PC),,Wyeast,,
+,,,,yeast,,,,1875,Wyeast GF American Ale II (1272),,Wyeast,,
+,,,,yeast,,,,1876,Wyeast GF Bavarian Lager (2206),,Wyeast,,
+,,,,yeast,,,,1877,Wyeast Greenbelt,,Wyeast,,
+,,,,yeast,,,,1878,Wyeast Headwaters Ale (1000),,Wyeast,,
+,,,,yeast,,,,1879,Wyeast Hella Bock (2487),,Wyeast,,
+,,,,yeast,,,,1880,Wyeast Imperial Blend (9093),,Wyeast,,
+,,,,yeast,,,,1882,Wyeast Kolsch (2565),,Wyeast,,
+,,,,yeast,,,,1883,Wyeast Kolsch II,,Wyeast,,
+,,,,yeast,,,,1884,Wyeast Kolsch II (2575),,Wyeast,,
+,,,,yeast,,,,1885,Wyeast Lactobacills (5335),,Wyeast,,
+,,,,yeast,,,,1886,Wyeast Lactobacillus (5335),,Wyeast,,
+,,,,yeast,,,,1887,Wyeast Lactobacillus delbruckii (4335),,Wyeast,,
+,,,,yeast,,,,1888,Wyeast Lager Blend,,Wyeast,,
+,,,,yeast,,,,1889,Wyeast Leuven Pale Ale (3538),,Wyeast,,
+,,,,yeast,,,,1894,Wyeast NB NeoBritannia,,Wyeast,,
+,,,,yeast,,,,1897,Wyeast Old Ale Blend (9097),,Wyeast,,
+,,,,yeast,,,,1898,Wyeast PacMan,,Wyeast,,
+,,,,yeast,,,,1899,Wyeast Pediococcus 5733,,Wyeast,,
+,,,,yeast,,,,1910,Wyeast West Yorkshire (seasonal) (1469),,Wyeast,,
+,,,,yeast,,,,1911,Wyeast Whitbread Ale (1099),,Wyeast,,
+,,,,yeast,,,,1912,Wyeast-Rogue Pacman (1764),,Wyeast,,
+,,,,yeast,,,,1959,Yeast,,,,
+12,8,72,68,yeast,"This yeast produces a beer that is malty, but well-balanced. Expect flavors that are toasty with malt-driven esters. Highly flocculent and good choice for English pale ales, English brown ales, and mild ales.",69,65,1817,Yorkshire Square Ale,WLP037,White Labs,liquid,ale
+18,18,,,yeast,"Dominating, strong fermentation characteristics. Alcohol tolerant to 18% (v/v). Ideal for Zinfandel, Pinot Noir, Syrah, or any high sugar must. Good choice for restarting stuck fermentations.",85,60,1954,Zinfandel,4946,Wyeast,liquid,wine
+,15,80,70,yeast,"Swiss style lager yeast. With proper care, this yeast can be used to produce lager beer over 11% ABV. Sulfur and diacetyl production is minimal. Original culture provided to White Labs by Marc Sedam.",55,50,1818,Zurich Lager,WLP885,White Labs,liquid,lager
+,,,,yeast,,,,1914,Zymoferm Z039 Belgische Klosterbiere u. Ales,,,,
+,,,,yeast,,,,1915,Zymoferm Z041 Weissbier III Typ Bestfrau,,,,
