@@ -9,3 +9,8 @@ varying ABV or IBU?
 
 <iframe src="./Predict Dash/" style="border: 1px solid #FFF; width: 800px; height: 600px">
 </iframe>
+
+*Alcohol by volume (**ABV**) is a standard measure of how much alcohol (ethanol) is contained in a given volume of an alcoholic beverage expressed as a volume percent.*
+
+
+*International Bitterness Units (**IBU**) scale, a gauge of beer's bitterness. What IBUs measure are the parts per million of isohumulone found in a beer. Isohumulone is the acid found in hops that gives beer its bitter bite.*
