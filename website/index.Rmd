@@ -83,6 +83,7 @@ fred_idx = read.csv("fred_idx.csv")
 fred_idx = fred_idx[, c(1, 2, 4, 5, 6)]
 fred_idx$index_date = as.Date(fred_idx$index_date)
 colnames(fred_idx) = c("index_date", "cases_bottles", "cases_cans", "barrels_and_kegs", "overall")
+fred_idx = fred_idx[fred_idx$index_date >= '1982-06-01',]
 fred_idx = as.xts(fred_idx[, 2:5], order.by = fred_idx[, 1])
 ```
 
