@@ -25,14 +25,19 @@ The choropleth map below highlights the states with the highest rated beers.
 While the total range in mean rating between states is pretty small, it is still 
 fun to take pride in knowing your home state brews some *mean* beers. 
 
-```{r rating_map, echo=FALSE, warning=FALSE}
+```{r rating_map, include=FALSE}
 library(choroplethr)
 bp_by_state = read.csv("bp_rating_by_state.csv", stringsAsFactors = FALSE)
+```
+
+```{r, echo=FALSE, warning=FALSE}
 state_choropleth(bp_by_state, 
                    title = "Mean BeerPal Rating of Beers by State Brewed In",
                    legend = "Mean Beer Rating",
                    num_colors = 5)
+
 ```
+
 
 ### Top Beers 
 
