@@ -24,12 +24,6 @@
 
 <br>
 
-## The solution and MVP:
-
-> A set of exploratory and predictive analytics on the U.S. beer industry for brewers, using a number of public data sources.
-
-<br>
-
 ## Brewery Supply and Demand
 
 According to the data available through the [Economic Research Division of the Federal Reserve Bank of St. Louis](https://research.stlouisfed.org/docs/api/fred/fred.html), 
@@ -93,6 +87,12 @@ dygraph(fred_idx, main = "Brewery Price Index Data") %>%
 ```
 
 <br><br>
+
+## The solution and MVP:
+
+> A set of exploratory and predictive analytics on the U.S. beer industry for brewers, using a number of public data sources.
+
+<br>
 
 ## Data Science Approach
 
