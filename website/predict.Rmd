@@ -5,5 +5,7 @@
 Would you like to know how highly a certain style of beer would be rated given
 varying ABV or IBU?
 
+*The predicted “rating” is a scale from 1 to 5, with 1 being “poor” and 5 being “great”.*
+
 <iframe src="./Predict Dash/" style="border: 1px solid #FFF; width: 800px; height: 600px">
 </iframe>
