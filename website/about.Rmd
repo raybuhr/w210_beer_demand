@@ -34,7 +34,7 @@ As the final requirement from the Masters of Information and Data Science (MIDS)
 
 ### Predictions
 
-The beer rating prediction used the Random Forest algorithm? Now it is a linear model?
+*Top Secret*
 
 <br>
 
