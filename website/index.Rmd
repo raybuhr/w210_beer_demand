@@ -16,7 +16,13 @@
 
 **The Craft Beer industry is a significant market that is rapidly growing.**
 
-**Understanding beer demand is hard today.  There is no rigorous data analytics tools to enable brewers to have insights into demand and customer preference.**
+**Understanding beer demand is hard today.  There are no rigorous data analytics tools to enable brewers to have insights into demand and customer preference.**
+
+## The solution and MVP:
+
+> A set of exploratory and predictive analytics on the U.S. beer industry for brewers, using a number of public data sources.
+
+<br>
 
 <a href="https://www.brewersassociation.org/statistics/national-beer-sales-production-data">
 <img src="Sales_2015_BA.jpg" height="900" width="725">
@@ -87,12 +93,6 @@ dygraph(fred_idx, main = "Brewery Price Index Data") %>%
 ```
 
 <br><br>
-
-## The solution and MVP:
-
-> A set of exploratory and predictive analytics on the U.S. beer industry for brewers, using a number of public data sources.
-
-<br>
 
 ## Data Science Approach
 
