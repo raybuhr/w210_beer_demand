@@ -38,6 +38,12 @@ As the final requirement from the Masters of Information and Data Science (MIDS)
 
 <br>
 
+## Lessons Learned  
+
+*Coming soon!*
+
+<br>
+
 ## UC Berkeley MIDS Program
 
 > The UC Berkeley School of Information (I School) offers the only professional [Master of Information and Data Science (MIDS)](https://datascience.berkeley.edu) delivered entirely online. The program is designed for professionals who want to solve real-world problems using complex and unstructured data, emphasizing the importance of asking meaningful research questions and effectively communicating findings. Delivered in a web-based learning environment, datascience@berkeley blends live, face-to-face classes with online coursework. The online learning experience facilitates collaboration, meaningful discussion, and lifelong connections with faculty and peers. datascience@berkeley is fully accredited by the Western Association of Schools & Colleges (WASC). 

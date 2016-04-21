@@ -121,6 +121,7 @@ dygraph(fred_idx, main = "Brewery Price Index Data") %>%
 
 ## Future Roadmap  
 
+- Pull in social media data coming from breweries
 - Add sentiment aggregated by style to supplement maps
 - Adapt style model to account for regional biases in data 
 - Keep looking for new data sources to incorporate
