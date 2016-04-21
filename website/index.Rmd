@@ -14,10 +14,19 @@
 
 ## But Why Beer Models?
 
-- Big industry
-- Major year-over-year growth
-- Few players in the data/beer space
-- New players need data to succeed and represent an opportunity
+**The Craft Beer industry is a significant market that is rapidly growing.**
+
+**Understanding beer demand is hard today.  There is no rigorous data analytics tools to enable brewers to have insights into demand and customer preference.**
+
+<a href="https://www.brewersassociation.org/statistics/national-beer-sales-production-data">
+<img src="Sales_2015_BA.jpg" height="900" width="725">
+</a>
+
+<br>
+
+## The solution and MVP:
+
+> A set of exploratory and predictive analytics on the U.S. beer industry for brewers, using a number of public data sources.
 
 <br>
 
@@ -110,7 +119,7 @@ dygraph(fred_idx, main = "Brewery Price Index Data") %>%
 
 <br>
 
-## Next Steps
+## Future Roadmap  
 
 - Add sentiment aggregated by style to supplement maps
 - Adapt style model to account for regional biases in data 
@@ -122,7 +131,7 @@ dygraph(fred_idx, main = "Brewery Price Index Data") %>%
 
 **Data for the charts above came from the [Economic Research Division of the Federal Reserve Bank of St. Louis](https://research.stlouisfed.org/docs/api/fred/fred.html)**
 
-> FRED® stands for Federal Reserve Economic Data. FRED® contains frequently updated US macro and regional economic time series at annual, quarterly, monthly, weekly, and daily frequencies. FRED® aggregates economic data from a variety of sources- most of which are US government agencies. The economic time series in FRED® contain observation or measurement periods associated with data values. For instance, the US unemployment rate for the month of January, 1990 was 5.4 percent and for the month of January, 2000 was 4.0 percent.
+*FRED® stands for Federal Reserve Economic Data. FRED® contains frequently updated US macro and regional economic time series at annual, quarterly, monthly, weekly, and daily frequencies. FRED® aggregates economic data from a variety of sources- most of which are US government agencies. The economic time series in FRED® contain observation or measurement periods associated with data values. For instance, the US unemployment rate for the month of January, 1990 was 5.4 percent and for the month of January, 2000 was 4.0 percent.*
 
 We used the FRED API to extract data on the supply and sales of beer over a 20 year period,
 as well as price indices for breweries.
