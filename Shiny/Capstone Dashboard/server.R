@@ -7,6 +7,7 @@ shinyServer(function(input, output, session) {
   library(tidyr)
   library(maps)
   library(ggmap)
+  library(RColorBrewer)
 
   #beers <- read.csv('beers_with_style_3_15.csv')
   beers <- read.csv('beers_with_style_only_US.csv')
@@ -34,13 +35,26 @@ shinyServer(function(input, output, session) {
     selected_state <- paste0('\"',input$state, '\"')
     beers_sub <- beers %>%
       filter_(ifelse(input$state == 'All', "1==1", paste("location.venue_state ==", selected_state)))
+
+    cbPalette = c("#007033",
+                 "#F33E4B",
+                 "#79DC3D",
+                 "#3B71CB",
+                 "#F97A0A",
+                 "#8FCCFC",
+                 "#988315",
+                 "#934075",
+                 "#CDCC4D",
+                 "#77517D",
+                 "#935C29",
+                 "#A63A47")
     
     q <- ggplot() + 
       geom_point(data = beers_sub, aes(x = location.lng, y = location.lat,  
                 fill = style_category, colour = style_category), 
                 alpha=0.6, size = 5, position = position_jitter(w = 0.03, h = 0.03)) +
-      #scale_fill_manual(values= colors) +
-      #scale_color_manual(values= colors) +
+      # scale_fill_manual(values=cbPalette) + scale_color_manual(values=cbPalette) +
+      scale_fill_brewer(palette = "Paired") + scale_color_brewer(palette = "Paired") +
       geom_polygon(data = state_map, aes(x = long, y= lat, group = group), fill=NA, colour='gray') +
       theme_classic() + 
       theme(line = element_blank(), title = element_blank(), axis.text.x = element_blank(), axis.text.y = element_blank())
