@@ -22,7 +22,6 @@ shinyServer(function(input, output, session) {
     beer_to_predict$style_category <- factor(beer_to_predict$style_category, levels=c('Pale', 'Lager','Stout','Porter','Brown','IPA','Belgian','Wheat','Sour',
                                                                                'Red', 'Blonde', 'Other'))
     
-    print(str(beer_to_predict))
     prediction <- round(predict(model, beer_to_predict), 3)
     toString(prediction)
   })
