@@ -19,25 +19,71 @@ among different regions of the country.
 
 <br>
 
-### Users' Preference by Brewery State
+### Preference by Brewery State
 
 The choropleth map below highlights the states with the highest rated beers. 
-While the total range in mean rating between states is pretty small, it is still 
-fun to take pride in knowing your home state brews some *mean* beers. 
+While the total range in mean rating between states is pretty small (3.62 to 3.88), 
+by [standardizing the ratings using a Z-transformation](https://en.wikipedia.org/wiki/Standard_score) 
+we can see that there are a handful of states producing the craft beers preferred by beer connoisseurs. 
+
+To interpret the standard scores below, use this guide:
+
+- A score of 0 tells us the average beer coming from that state was rated exactly the same as the national average
+- A score of 1 tells us the average beer coming from that state was rated one standard deviation higher than the national average, so think top 84%
+- A score of 2 tells us the average beer coming from that state was rated two standard deviations higher than the national average, so think top 98%
+- Likewise, a score of -1 tells us the average beer coming from that state was rated one standard deviation below than the national average, or bottom 16%
+
+This state level data also shows us a bit of the regional biases embedded in online reviews. 
+Not coincidentally, the states with the most reviews also tend to have the highest ratings. 
+
+All these statistics aside, it is still fun to take pride in knowing your home state brews some *mean* beers. 
+
+<br> 
+
+#### **Standardized Ratings from BeerPal.com by Brewery State**
 
 ```{r rating_map, include=FALSE}
-library(choroplethr)
 bp_by_state = read.csv("bp_rating_by_state.csv", stringsAsFactors = FALSE)
+bp_by_state = bp_by_state[,1:2]
+bp_by_state$rating = round(bp_by_state$rating, 3)
+missing_states = data.frame(state=c("NV", "ND", "SD", "IA", "AR", "MS", "KY", "WV"),
+                            rating=rep(min(bp_by_state$rating, 8)))
+state_ratings = rbind(bp_by_state, missing_states)
+state_ratings[state_ratings$state=="RI",] = c("RI", 3.62)
+state_ratings$rating = as.numeric(state_ratings$rating)
+state_ratings$z_score = scale(state_ratings$rating)
 ```
 
-```{r, echo=FALSE, warning=FALSE}
-state_choropleth(bp_by_state, 
-                   title = "Mean BeerPal Rating of Beers by State Brewed In",
-                   legend = "Mean Beer Rating",
-                   num_colors = 5)
 
+```{r, echo=FALSE, results='asis', comment=NA}
+library(rMaps)
+# bpmap = rMaps::ichoropleth(rating ~ state, data = state_ratings, 
+#                            legend = TRUE, labels = TRUE, 
+#                            ncuts = 6, pal = "PuBuGn")
+# bpmap$set(geographyConfig = list(
+#     popupTemplate = "#! function(geography, data){
+#       return '<div class=hoverinfo><strong>' + geography.properties.name + 
+#       ': ' + data.rating + '</strong></div>';
+#     } !#"
+# ))
+bpmap = rMaps::ichoropleth(z_score ~ state, data = state_ratings,
+                           legend = TRUE, labels = TRUE, 
+                           ncuts = 6, pal = "BuGn")
+bpmap$set(geographyConfig = list(
+    popupTemplate = "#! function(geography, data){
+      return '<div class=hoverinfo><strong>' + geography.properties.name + 
+      ': ' + data.z_score + '</strong></div>';
+    } !#"
+))
+#bpmap
+bpmap$print('chart2', include_assets = TRUE, cdn = TRUE)
 ```
 
+<br>
+
+*The legend is grouped into 6 even buckets by frequency of occurence, not even breaks between standard scores.*
+
+<br>
 
 ### Top Beers 
 
