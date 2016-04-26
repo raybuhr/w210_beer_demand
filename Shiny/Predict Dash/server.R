@@ -1,7 +1,7 @@
 shinyServer(function(input, output, session) {
   
  library(randomForest)
- load('beerRF.Rdata')
+ readRDS('beerRF.Rdata')
  
   output$gen_map <- renderText({
     print(input$abv)
