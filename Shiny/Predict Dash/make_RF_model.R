@@ -64,4 +64,5 @@ beers$ibu_factor <- factor(beers$ibu_factor, levels=c('< 10',
 model <- randomForest(Overall_Rating ~ abv_factor + ibu_factor + style_category + 
                         (style_category * abv_factor) +
                         (style_category * ibu_factor), data=beers)
-save(model, file='beerRF.RData')
+#save(model, file='beerRF2.RData')
+saveRDS(model, "beerRF.rds")
