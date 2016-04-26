@@ -6,6 +6,7 @@ nrow(beers)
 colnames(beers)[8] <- 'beer_style'
 colnames(beers)
 
+
 ipas <- unique(beers$beer_style[grepl('IPA', beers$beer_style, ignore.case=T)])
 lagers <- unique(beers$beer_style[grepl('lager', beers$beer_style, ignore.case=T)])
 stouts <- unique(beers$beer_style[grepl('stout', beers$beer_style, ignore.case=T)])
@@ -60,9 +61,23 @@ beers$ibu_factor <- factor(beers$ibu_factor, levels=c('< 10',
                                                       '51 - 75', 
                                                       '76 - 100',
                                                       '> 100'))
+
+beers$state_factor = factor(ifelse(is.na(beers$State), "All", beers$State))
+
 # Interaction terms
 model <- randomForest(Overall_Rating ~ abv_factor + ibu_factor + style_category + 
                         (style_category * abv_factor) +
                         (style_category * ibu_factor), data=beers)
 #save(model, file='beerRF2.RData')
 saveRDS(model, "beerRF.rds")
+
+# Ray's take on model
+rf = randomForest(Overall_Rating ~ abv_factor + 
+                                   ibu_factor + 
+                                   style_category + 
+                                  (style_category * abv_factor) + 
+                                  (style_category * ibu_factor) + 
+                                   state_factor, 
+                  data=beers)
+
+saveRDS(rf, "beerRF_v2.rds")

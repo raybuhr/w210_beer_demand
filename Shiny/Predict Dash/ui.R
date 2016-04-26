@@ -109,10 +109,12 @@ shinyUI(fluidPage(
                               'OR','PA','RI','SC',
                               'SD','TN','TX','UT','VA',
                               'WA','WI','WV','WY'), selected='All'),
+      
       selectInput("style", width = "200px",
                   h2("Select Your Beer Style"), 
                   choices = c('Pale', 'Lager','Stout','Porter','Brown','IPA','Belgian','Wheat','Sour',
                               'Red', 'Blonde', 'Other'), selected='Pale'),
+      
       selectInput("abv", width = "200px",
                   h2("Select Your ABV Range"), 
                   choices = c('< 3%', 
@@ -121,6 +123,7 @@ shinyUI(fluidPage(
                               '8% - 10%', 
                               '> 10%'), 
                               selected='< 3%'),
+      
       selectInput("ibu", width = "200px",
                               h2("Select Your IBU Range"), 
                               choices = c('< 10', 
@@ -131,6 +134,7 @@ shinyUI(fluidPage(
                                           '> 100'), 
                               selected='< 10'
     ))),
+    
     mainPanel(
       tabsetPanel(
         tabPanel(
