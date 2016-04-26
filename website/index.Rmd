@@ -7,26 +7,31 @@
 
 <br>
 
-## GOAL:
+## GOAL
 ### Help brewers make the right beer in the right place at the right time.
 
 <br>
 
 ## But Why Beer Models?
 
-**The Craft Beer industry is a significant market that is rapidly growing.**
-
-**Understanding beer demand is hard today.  There are no rigorous data analytics tools to enable brewers to have insights into demand and customer preference.**
-
-## The solution and MVP:
-
-> A set of exploratory and predictive analytics on the U.S. beer industry for brewers, using a number of public data sources.
+### The Craft Beer industry is a significant market that is rapidly growing.
 
 <br>
 
 <a href="https://www.brewersassociation.org/statistics/national-beer-sales-production-data">
 <img src="Sales_2015_BA.jpg" height="900" width="725">
 </a>
+
+<br>
+
+### Understanding beer demand is hard today.  There are no rigorous data analytics tools to enable brewers to have insights into demand and customer preference.
+
+<br>
+
+## **The solution and MVP**
+
+> A set of exploratory and predictive analytics on the U.S. beer industry for brewers, using a number of public data sources.
+
 
 <br>
 
@@ -100,7 +105,7 @@ dygraph(fred_idx, main = "Brewery Price Index Data") %>%
 **Get data**
 
 - Sales data and consumption data from various sources
-- Untappd, OpenBeerDB, FRED, Twitter
+- Untappd, OpenBeerDB, FRED, Twitter, BeerAdvocate
 
 **Clean and transform data**
 
@@ -117,16 +122,6 @@ dygraph(fred_idx, main = "Brewery Price Index Data") %>%
 **Present and polish**
 
 - Visualize models in a Shiny dashboard for breweries to use
-
-<br>
-
-## Future Roadmap  
-
-- Pull in social media data coming from breweries
-- Add sentiment aggregated by style to supplement maps
-- Adapt style model to account for regional biases in data 
-- Keep looking for new data sources to incorporate
-- Get more feedback from breweries of what problems they have that data science can solve
 
 <br>
 <br>

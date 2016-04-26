@@ -34,13 +34,35 @@ As the final requirement from the Masters of Information and Data Science (MIDS)
 
 ### Predictions
 
-*Top Secret*
+The predictive model utilizes the Random Forest (RF) algorithm for regression. The RF algorithm reduces problems of overfitting by taking random population samples with replacement from the training dataset, as well as taking random samples of the features available. When using RF for regression, the predicted value at each node in a decision tree is the average response variable for all observations in the node, and predicted values are obtained by taking an average of individual tree. A standard measure of accuracy for regression models is the expected mean squared error, which for our model came out to 0.5.
+
+*More details coming soon!*
 
 <br>
 
 ## Lessons Learned  
 
-*Coming soon!*
+- Finding and cleaning the various data sources actually did make up 80% of the project time
+- There is not a lot of detailed, **open** information on the production and sales of individual breweries (the lowest level granularity we could find was at the state level)
+- Social Media data (e.g. Twitter and Untappd) can be very messy (spelling, misusing words, sarcasm, etc.)
+- There are some really weird names for beers (how tasty does *Dirty Old Man* sound?)
+- There are some names for beers that don't make sentiment analysis easy (looking at you, *Bells Best Brown Ale*)
+- A lot of the tweets about beer in Twitter actually forwarded from Untappd, so check for overlap in data sources!
+- High quality data is more valuable for training a predictive model than large quantity of data points (~16,000 Untappd checkins vs. 1.5M BeerAdvocate reviews)
+- Having regular check-ins and split responsibilities made project management and pivoting direction a lot easier
+- The potential for this project far exceeds what we could deliver in only 3 months!
+
+<br>
+
+## Future Roadmap  
+
+*What would have liked to do given more time or what we think should be the next steps for anyone wanting to contribute*
+
+- Pull in social media data coming from breweries
+- Add text sentiment aggregated by style to supplement maps
+- Adapt style model to account for regional biases in data 
+- Keep looking for new data sources to incorporate, ideally economic time series
+- Get more feedback from breweries of what problems they have that data science can solve
 
 <br>
 
