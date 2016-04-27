@@ -93,7 +93,7 @@ and 5 being "great". The "reviews" are how many times that beer was rated.
 ```{r datatable, echo=FALSE, warning=FALSE}
 bp = read.csv("bp_ratings.csv", stringsAsFactors = FALSE)
 bp = bp[, c(10, 3, 5, 6, 8, 9)]
-DT::datatable(bp)
+DT::datatable(bp, filter = "top")
 ```
 
 <br>
