@@ -1,7 +1,7 @@
 <br>
 
 # **Predicting the Demand of Beer Styles**
-*Capstone project for UC Berkeley MIDS, Sping 2016*
+*Capstone project for UC Berkeley MIDS, Spring 2016*
 
 **Ray Buhr, Carson Forter, Satish Terala**
 
