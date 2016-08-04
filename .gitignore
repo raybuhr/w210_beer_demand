@@ -139,3 +139,6 @@ vignettes/*.pdf
 .httr-oauth
 
 .Rproj.user
+
+# rmarkdown generated content
+_site/
